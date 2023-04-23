@@ -2,6 +2,10 @@
   "name": "mal-cool",
   "version": "0.1.0",
   "private": true,
+  "engine": {
+    "npm": ">9.x",
+    "node": ">12.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
