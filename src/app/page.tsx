@@ -39,11 +39,11 @@ export default function Home() {
       </div>
       {/* Press release */}
       <div className="flex flex-wrap w-full max-w-7xl mb-10 lg:pl-10 items-center justify-between text-lg text-justify">
-        <p className="w-full mb-2 justify-center">
+        <p className="w-full mb-4 justify-center">
           { dictionary.pressRelease.description }
         </p>
         <br/>
-        <div className="inline-flex justify-center" dangerouslySetInnerHTML={{ __html: dictionary.pressRelease.download }}></div>
+        <div className="inline justify-center" dangerouslySetInnerHTML={{ __html: dictionary.pressRelease.download }}></div>
       </div>
       {/* Location */}
       <div className="flex flex-wrap w-full max-w-7xl mb-10 lg:pl-10 items-center justify-between text-lg text-justify">
