@@ -3,7 +3,7 @@ export default {
     title: `Stop Espacio Mad Cool`,
     description: `Los vecinos de Villaverde y Getafe crean la plataforma vecinal Stop Espacio Mad Cool.`,
     author: `Stop Espacio Mad Cool`,
-    site: `https://stopmadcool.com`,
+    site: `https://www.stopmadcool.com`,
     keywords: `stop madcool marconi villaverde getafe norte`,
     logoUrl: 'https://drive.google.com/uc?export=view&id=1Re14bh6TJ9uazDDkrDZm-A-keJJ54Ng4'
   },
