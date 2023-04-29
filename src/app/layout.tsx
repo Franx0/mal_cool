@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react'
+
 import './globals.css'
 import { Inter } from 'next/font/google'
 import dictionary from '@/languages/es'
@@ -34,6 +36,10 @@ export const metadata = {
   },
 }
 
+function analytics(env: string) {
+  if(env == "production") return <Analytics />
+}
+
 export default function RootLayout({
   children,
 }: {
@@ -41,7 +47,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={ inter.className }>{children}</body>
+      <body className={ inter.className }>
+        {children}
+        {analytics(process.env.NODE_ENV)}
+      </body>
     </html>
   )
 }

@@ -12,3 +12,18 @@
 
 body {
 }
+
+.embed-pdf {
+  height: 15rem;
+
+  @apply w-full mx-auto
+}
+
+
+@screen sm {
+  .embed-pdf {
+    height: 38rem;
+
+    @apply w-4/5
+  }
+}
