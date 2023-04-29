@@ -1,4 +1,4 @@
-import { Analytics } from '@vercel/analytics/react'
+import CustomAnalytics from '@/components/shared/customAnalytics'
 
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -36,10 +36,6 @@ export const metadata = {
   },
 }
 
-function analytics(env: string) {
-  if(env == "production") return <Analytics />
-}
-
 export default function RootLayout({
   children,
 }: {
@@ -49,7 +45,7 @@ export default function RootLayout({
     <html lang="es">
       <body className={ inter.className }>
         {children}
-        {analytics(process.env.NODE_ENV)}
+        {<CustomAnalytics />}
       </body>
     </html>
   )
