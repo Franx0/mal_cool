@@ -8,7 +8,7 @@ type Link = {
 }
 
 export default function News({dictionary}: any) {
-  const newsList: Array<ReactElement> = dictionary.links.map((link: Link, i: number) => {
+  const newsList: Array<ReactElement> = dictionary.links.reverse().map((link: Link, i: number) => {
     return(
       <li key={i} className="mb-6 text-blue-400">
         <p className="text-sm text-blue-500">{link.date}</p>

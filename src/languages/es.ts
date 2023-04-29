@@ -25,10 +25,28 @@ export default {
     title: `Noticias relacionadas:`,
     links: [
       {
+        date: `5 de Julio de 2022`,
+        name: `Villacís anuncia una ciudad de la música en torno al festival Mad Cool que se instalará en Villaverde`,
+        alt: `ayuntamiento de madrid`,
+        url: `https://www.madrid.es/portales/munimadrid/es/Inicio/Actualidad/Noticias/Villacis-anuncia-una-ciudad-de-la-musica-en-torno-al-festival-Mad-Cool-que-se-instalara-en-Villaverde/?vgnextfmt=default&vgnextoid=4d8b0a14cfdc1810VgnVCM2000001f4a900aRCRD&vgnextchannel=a12149fa40ec9410VgnVCM100000171f5a0aRCRD`
+      },
+      {
         date: `2 de Marzo de 2023`,
         name: `Dueños de Mad Cool compran suelo en Villaverde`,
         alt: `servimedia`,
         url: `https://www.servimedia.es/noticias/duenos-mad-cool-compran-suelo-villaverde-madrid-para-construir-gran-ciudad-musica/3634230`
+      },
+      {
+        date: `5 de Marzo de 2023`,
+        name: `Mad Cool planea soterrar hasta 5 metros sus escenarios para aplacar la bomba de ruido en Marconi y Getafe`,
+        alt: `abc`,
+        url: `https://www.abc.es/espana/madrid/mad-cool-planea-soterrar-metros-escenarios-aplacar-20230306205306-nt.html`
+      },
+      {
+        date: `6 de Marzo de 2023`,
+        name: `GETAFE/ Temor entre los vecinos: 'Mad Cool' tendrá recinto estable a 300 metros de Getafe Norte`,
+        alt: `noticias municipios`,
+        url: `https://noticiasparamunicipios.com/municipios-madrid/getafe-temor-entre-los-vecinos-mad-cool-tendra-recinto-estable-a-300-metros-de-getafe-norte/`
       },
       {
         date: `10 de Marzo de 2023`,
