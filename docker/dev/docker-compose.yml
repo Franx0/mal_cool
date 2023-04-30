@@ -1,0 +1,23 @@
+version: '3'
+
+# From project root directory run:
+# docker-compose -f docker/dev/docker-compose.yml up
+services:
+  next-app:
+    container_name: mal-cool
+    build:
+      context: ./../../
+      dockerfile: ./docker/dev/Dockerfile
+    volumes:
+      - ./../../src:/app/src
+      - ./../../public:/app/public
+    restart: always
+    environment:
+      - NODE_ENV=development
+    ports:
+      - 3000:3000
+    networks:
+      - mal_cool
+
+networks:
+  mal_cool:
