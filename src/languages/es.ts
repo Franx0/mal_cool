@@ -48,13 +48,13 @@ export default {
       {
         date: `6 de Marzo de 2023`,
         name: `GETAFE/ Temor entre los vecinos: 'Mad Cool' tendrá recinto estable a 300 metros de Getafe Norte`,
-        alt: `noticias municipios`,
+        alt: `noticias para municipios`,
         url: `https://noticiasparamunicipios.com/municipios-madrid/getafe-temor-entre-los-vecinos-mad-cool-tendra-recinto-estable-a-300-metros-de-getafe-norte/`
       },
       {
         date: `10 de Marzo de 2023`,
         name: `30000 vecinos de Getafe sufrirán el ruido y las molestias del festival Mad Cool`,
-        alt: `cadenaser`,
+        alt: `cadena ser`,
         url: `https://cadenaser.com/cmadrid/2023/03/10/30000-vecinos-de-getafe-sufririan-el-ruido-y-las-molestias-del-festival-de-musica-mad-cool-ser-madrid-sur/`
       },
       {
