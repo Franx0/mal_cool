@@ -56,6 +56,24 @@ export default {
         name: `30000 vecinos de Getafe sufrirán el ruido y las molestias del festival Mad Cool`,
         alt: `cadenaser`,
         url: `https://cadenaser.com/cmadrid/2023/03/10/30000-vecinos-de-getafe-sufririan-el-ruido-y-las-molestias-del-festival-de-musica-mad-cool-ser-madrid-sur/`
+      },
+      {
+        date: `11 de Mayo de 2023`,
+        name: `La Asociación de Vecinos de Getafe Norte contra el MadCool`,
+        alt: `ondacero`,
+        url: `https://www.ondaceromadridsur.es/todos-podcasts/12327`
+      },
+      {
+        date: `12 de Mayo de 2023`,
+        name: `Vecinos contra Mad Cool, otra batalla por el derecho a la ciudad frente al negocio de los festivales`,
+        alt: `el salto`,
+        url: `https://www.elsaltodiario.com/musica/vecinos-mad-cool-otra-batalla-derecho-ciudad-frente-al-negocio-festivales`
+      },
+      {
+        date: `12 de Mayo de 2023`,
+        name: `El Defensor del Pueblo admite a trámite la reclamación sobre un espacio para macrofestivales`,
+        alt: `el periódico getafe`,
+        url: `https://periodicogetafe.blogspot.com/2023/05/el-defensor-del-pueblo-admite-tramite.html?spref=tw&m=1`
       }
     ],
   }
