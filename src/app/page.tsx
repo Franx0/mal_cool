@@ -12,12 +12,12 @@ export default function Home() {
     <main className="flex flex-col min-h-screen items-center justify-between p-12 font-mono font-medium">
       {/* Header */}
       <Header dictionary={dictionary.header} />
-      {/* Contact */}
-      <Contact dictionary={dictionary.contact}/>
       {/* Press release */}
       <PressRelease dictionary={dictionary.pressRelease}/>
       {/* Location */}
       <Location dictionary={dictionary.location}/>
+      {/* Contact */}
+      <Contact dictionary={dictionary.contact}/>
       <Separator />
       <News dictionary={dictionary.news} />
     </main>
