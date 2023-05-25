@@ -35,13 +35,13 @@ export default {
         date: `5 de Julio de 2022`,
         name: `Villacís anuncia una ciudad de la música en torno al festival Mad Cool que se instalará en Villaverde`,
         alt: `ayuntamiento de madrid`,
-        url: `https://www.madrid.es/portales/munimadrid/es/Inicio/Actualidad/Noticias/Villacis-anuncia-una-ciudad-de-la-musica-en-torno-al-festival-Mad-Cool-que-se-instalara-en-Villaverde/?vgnextfmt=default&vgnextoid=4d8b0a14cfdc1810VgnVCM2000001f4a900aRCRD&vgnextchannel=a12149fa40ec9410VgnVCM100000171f5a0aRCRD`
+        url: `https://www.madrid.es/portales/munimadrid/es/Inicio/Actualidad/Noticias/Villacis-anuncia-una-ciudad-de-la-musica-en-torno-al-festival-Mad-Cool-que-se-instalara-en-Villaverde/`
       },
       {
         date: `2 de Marzo de 2023`,
         name: `Dueños de Mad Cool compran suelo en Villaverde`,
         alt: `servimedia`,
-        url: `https://www.servimedia.es/noticias/duenos-mad-cool-compran-suelo-villaverde-madrid-para-construir-gran-ciudad-musica/3634230`
+        url: `https://www.servimedia.es/noticias/duenos-mad-cool-compran-suelo-villaverde-madrid-para-construir-gran-ciudad-musica/3634230/`
       },
       {
         date: `5 de Marzo de 2023`,
@@ -65,19 +65,37 @@ export default {
         date: `11 de Mayo de 2023`,
         name: `La Asociación de Vecinos de Getafe Norte contra el MadCool`,
         alt: `ondacero`,
-        url: `https://www.ondaceromadridsur.es/todos-podcasts/12327`
+        url: `https://www.ondaceromadridsur.es/todos-podcasts/12327/`
       },
       {
         date: `12 de Mayo de 2023`,
         name: `Vecinos contra Mad Cool, otra batalla por el derecho a la ciudad frente al negocio de los festivales`,
         alt: `el salto`,
-        url: `https://www.elsaltodiario.com/musica/vecinos-mad-cool-otra-batalla-derecho-ciudad-frente-al-negocio-festivales`
+        url: `https://www.elsaltodiario.com/musica/vecinos-mad-cool-otra-batalla-derecho-ciudad-frente-al-negocio-festivales/`
       },
       {
         date: `12 de Mayo de 2023`,
         name: `El Defensor del Pueblo admite a trámite la reclamación sobre un espacio para macrofestivales`,
         alt: `el periódico getafe`,
-        url: `https://periodicogetafe.blogspot.com/2023/05/el-defensor-del-pueblo-admite-tramite.html?spref=tw&m=1`
+        url: `https://periodicogetafe.blogspot.com/2023/05/el-defensor-del-pueblo-admite-tramite.html`
+      },
+      {
+        date: `20 de Mayo de 2023`,
+        name: `Vecinos de Getafe Norte comienzan a colgar avisos en las ventanas que dicen "No al Mad Cool" `,
+        alt: `madridActual`,
+        url: `https://www.madridactual.es/7893385-getafe-vecinos-de-getafe-norte-empiezan-a-colgar-carteles-en-las-ventanas-de-no-al-mad-cool/`
+      },
+      {
+        date: `22 de Mayo de 2023`,
+        name: `Vecinos de Getafe Norte empiezan a colgar carteles en las ventanas de 'No al Mad Cool'`,
+        alt: `cadena ser`,
+        url: `https://cadenaser.com/cmadrid/2023/05/22/vecinos-de-getafe-norte-empiezan-a-colgar-carteles-en-las-ventanas-de-no-al-mad-cool-ser-madrid-sur/`
+      },
+      {
+        date: `23 de Mayo de 2023`,
+        name: `Su gran evento cultural internacional destruye mi ciudad`,
+        alt: `el salto`,
+        url: `https://www.elsaltodiario.com/culturas/gran-evento-cultural-internacional-destruye-ciudad/`
       }
     ],
   }
