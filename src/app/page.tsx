@@ -20,6 +20,7 @@ export default function Home() {
       <Separator />
       {/* Meetings */}
       <Meetings dictionary={dictionary.meetings}/>
+      <Separator />
       {/* Contact */}
       <Contact dictionary={dictionary.contact}/>
       <Separator />

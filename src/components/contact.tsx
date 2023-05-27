@@ -4,7 +4,7 @@ import { IconBrandTelegram, IconBrandFacebook, IconBrandTwitter } from '@tabler/
 
 export default function Contact({dictionary}: any) {
   return (
-    <div className="flex-wrap w-full max-w-7xl mb-10 lg:pl-10 items-center justify-between text-justify">
+    <div className="flex-wrap w-full max-w-7xl mb-10 lg:pl-10 items-center justify-between text-lg text-justify">
       <div className="lg:inline-flex"
            dangerouslySetInnerHTML={{ __html: dictionary.text }}
       ></div>

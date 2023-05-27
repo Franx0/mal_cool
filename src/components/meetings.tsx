@@ -1,16 +1,17 @@
 import type { ReactElement } from 'react'
+import { formatDate } from '@/utilities'
 
 type Meeting = {
-  name: string,
+  description: string,
   docUrl?: string,
 }
 
 export default function Meetings({dictionary}: any) {
-  const meetingList: Array<ReactElement> = Object.entries(dictionary.all).map(([date, meeting]: [string, any], i: number) => {
+  const meetingList: Array<ReactElement> = Object.entries<Meeting>(dictionary.all).map(([date, meeting], i: number) => {
     return(
       <li key={i} className="mb-6 text-blue-400">
         <div>
-          <span className="text-sm text-blue-500">{date}</span>
+          <span className="text-sm text-blue-500">{formatDate(date)}</span>
         </div>
         <a href={meeting.docUrl} hrefLang="es" target="_blank">{meeting.description}</a>
       </li>
