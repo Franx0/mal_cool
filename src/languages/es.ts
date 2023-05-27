@@ -17,6 +17,15 @@ export default {
     twitter: `https://twitter.com/StopMadcool_23?ref_src=twsrc%5Etfw`,
     facebook: `https://www.facebook.com/groups/487527109806848/`,
   },
+  meetings: {
+    description: `Aquí puedes consultar todas las decisiones y acciones llevadas a cabo por la propia plataforma Stop Espacio Mad Cool como por las distintas asociaciones que la conforman:`,
+    all: {
+      "23/05/23": {
+        description: `Asamblea de la asociación vecinal de Getafe Norte (AVGN)`,
+        docUrl: `https://drive.google.com/uc?export=view&id=1xOYMIID_u6YGhjxO5e5kpCzDbDg00oFn`,
+      },
+    }
+  },
   pressRelease: {
     description: `Si quieres saber más acerca de lo que desde la plataforma reivindicamos, puedes leer la nota de prensa que hemos preparado para conocer toda la información acerca de este atropello al descanso, bienestar y salud de los barrios del sur de Madrid.`,
     embed: `<object data="https://drive.google.com/file/d/1YlZyC6idBa8DY4IC06dYK9IAqLs3j0BB/preview" class="embed-pdf"></object>`,
