@@ -11,7 +11,7 @@ export default {
     title: `Los vecinos de Villaverde y Getafe crean la plataforma vecinal Stop Espacio Mad Cool en rechazo a este nuevo espacio destinado a macrofestivales en una localización muy cercana a los barrios y viviendas de Marconi y Getafe Norte.`,
   },
   contact: {
-    text: `<span>Si tienes preguntas o quieres conocer que actuaciones estamos llevando a cabo puedes seguirnos en nuestras redes sociales o también puedes escribirnos a nuestra dirección de correo electrónico: <a href={'mailto:stopmadcoolvillaverde@gmail.com?subject=A la plataforma Stop Mad Cool' class="text-sm lg:text-lg text-blue-400">stopmadcoolvillaverde@gmail.com</a></span>`,
+    text: `<span>Si tienes más preguntas o quieres conocer que nuevas actuaciones estamos llevando a cabo puedes seguirnos en nuestras redes sociales o también puedes escribirnos a nuestra dirección de correo electrónico: <a href={'mailto:stopmadcoolvillaverde@gmail.com?subject=A la plataforma Stop Mad Cool' class="text-sm lg:text-lg text-blue-400">stopmadcoolvillaverde@gmail.com</a></span>`,
     follow: `Siguenos en: `,
     telegram: `https://t.me/+dl25OpbX5h1lNmNk`,
     twitter: `https://twitter.com/StopMadcool_23?ref_src=twsrc%5Etfw`,
@@ -28,7 +28,7 @@ export default {
   },
   pressRelease: {
     description: `Si quieres saber más acerca de lo que desde la plataforma reivindicamos, puedes leer la nota de prensa que hemos preparado para conocer toda la información acerca de este atropello al descanso, bienestar y salud de los barrios del sur de Madrid.`,
-    embed: `<object data="https://drive.google.com/file/d/1YlZyC6idBa8DY4IC06dYK9IAqLs3j0BB/preview" class="embed-pdf"></object>`,
+    pressNoteUrl: `https://drive.google.com/file/d/1YlZyC6idBa8DY4IC06dYK9IAqLs3j0BB/preview`,
     exportUrl: `https://drive.google.com/uc?export=view&id=1YlZyC6idBa8DY4IC06dYK9IAqLs3j0BB`,
     exportTitle: `Nota de prensa`,
     exportText: `enlace`,

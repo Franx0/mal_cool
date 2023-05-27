@@ -1,6 +1,7 @@
 'use client'
 
 import { trackEvent } from '@/components/shared/customAnalytics'
+import DocumentViewer from '@/components/shared/documentViewer'
 
 export default function PressRelease({dictionary}: any) {
   return (
@@ -9,8 +10,8 @@ export default function PressRelease({dictionary}: any) {
         { dictionary.description }
       </p>
       <br/>
-      <div className="w-full mx-auto mb-6" dangerouslySetInnerHTML={{ __html: dictionary.embed }}></div>
-      <div className="w-full mx-auto mb-6">
+      <DocumentViewer url={dictionary.pressNoteUrl} className="embed-pdf mb-6" />
+      <div className="w-full mx-auto">
         <span>{dictionary.download}</span>
         <a className='text-blue-400'
             onClick={() => trackEvent(dictionary.download)}
