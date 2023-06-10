@@ -24,7 +24,7 @@ export default function Home() {
       {/* Contact */}
       <Contact dictionary={dictionary.contact}/>
       <Separator />
-      <News dictionary={dictionary.news} />
+      <News dictionary={dictionary.news}/>
     </main>
   )
 }
