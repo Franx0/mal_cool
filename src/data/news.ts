@@ -88,6 +88,12 @@ const news = [
     name: `Vecino de Getafe Norte, critica por irreal el estudio acústico del festival Mad Cool 2023`,
     alt: `cadena ser`,
     url: `https://cadenaser.com/audio/1686221284205/`
+  },
+  {
+    date: `2023/06/09`,
+    name: `Los habitantes de Getafe están recolectando firmas para detener los macrofestivales que se realizan a 300 metros de sus hogares`,
+    alt: `madridActual`,
+    url: `https://www.madridactual.es/7897116-getafe-vecinos-recogen-firmas-para-parar-los-macrofestivales-a-300-metros-de-sus-viviendas/`
   }
 ]
 
