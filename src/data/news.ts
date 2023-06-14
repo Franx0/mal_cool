@@ -94,6 +94,36 @@ const news = [
     name: `Los habitantes de Getafe están recolectando firmas para detener los macrofestivales que se realizan a 300 metros de sus hogares`,
     alt: `madridActual`,
     url: `https://www.madridactual.es/7897116-getafe-vecinos-recogen-firmas-para-parar-los-macrofestivales-a-300-metros-de-sus-viviendas/`
+  },
+  {
+    date: `2023/06/12`,
+    name: `Mad Cool presenta su nuevo recinto en Villaverde: en medio de un trigal, lejos del transporte público y con quejas vecinales `,
+    alt: `elDiario`,
+    url: `https://www.eldiario.es/madrid/somos/mad-cool-presenta-nuevo-recinto-villaverde-medio-trigal-lejos-transporte-publico-quejas-vecinales_1_10270222.html`
+  },
+  {
+    date: `2023/06/12`,
+    name: `MADRID/ Así es el polémico recinto de festivales donde se celebrará este año Mad Cool`,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/noticias-madrid/madrid-asi-es-el-polemico-recinto-de-festivales-donde-se-celebrara-este-ano-mad-cool/`
+  },
+  {
+    date: `2023/06/13`,
+    name: `Vecinos de Villaverde y Getafe, en contra del Mad Cool`,
+    alt: `telemadrid`,
+    url: `https://www.telemadrid.es/noticias/madrid/Vecinos-de-Villaverde-y-Getafe-en-contra-del-Mad-Cool-0-2568943156--20230613073331.html`
+  },
+  {
+    date: `2023/06/13`,
+    name: `MADRID/ Colonia Marconi se rebela contra el intento de hacer del barrio «un parking para Mad Cool»`,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/noticias-madrid/madrid-colonia-marconi-se-rebela-contra-el-intento-de-hacer-del-barrio-un-parking-para-mad-cool/`
+  },
+  {
+    date: `2023/06/14`,
+    name: `Why do the neighbors complain about Mad Cool’s celebration? it is a controversial fence`,
+    alt: `D1SoftBallNews`,
+    url: `https://d1softballnews.com/why-do-the-neighbors-complain-about-mad-cools-celebration-its-a-controversial-fence/`
   }
 ]
 
