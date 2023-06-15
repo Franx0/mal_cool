@@ -98,7 +98,7 @@ const news = [
   {
     date: `2023/06/12`,
     name: `Mad Cool presenta su nuevo recinto en Villaverde: en medio de un trigal, lejos del transporte público y con quejas vecinales `,
-    alt: `elDiario`,
+    alt: `ElDiario.es`,
     url: `https://www.eldiario.es/madrid/somos/mad-cool-presenta-nuevo-recinto-villaverde-medio-trigal-lejos-transporte-publico-quejas-vecinales_1_10270222.html`
   },
   {
@@ -124,6 +124,12 @@ const news = [
     name: `Why do the neighbors complain about Mad Cool’s celebration? it is a controversial fence`,
     alt: `D1SoftBallNews`,
     url: `https://d1softballnews.com/why-do-the-neighbors-complain-about-mad-cools-celebration-its-a-controversial-fence/`
+  },
+  {
+    date: `2023/06/14`,
+    name: `Mad Cool propone que la mayoría de su público acuda en coche a Villaverde en lugar de usar transporte colectivo `,
+    alt: `ElDiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/mad-cool-propone-mayoria-publico-acuda-coche-villaverde-lugar-transporte-colectivo_1_10287345.html`
   }
 ]
 
