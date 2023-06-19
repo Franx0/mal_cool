@@ -27,11 +27,11 @@ export default function Announcements({dictionary}: any) {
 
   return (
     <div className="flex flex-wrap w-full max-w-7xl mb-10 lg:pl-10 items-center justify-between text-lg text-justify">
-      <div className="flex flex-wrap grow w-full mb-6 justify-center text-justify text-2xl">
-        <span className="flex flex-wrap w-full justify-center text-blue-400">{ dictionary.date }</span>
+      <div className="flex flex-wrap grow w-full mb-6 justify-left lg:justify-center lg:text-justify text-justify lg:text-2xl text-xl">
+        <span className="flex flex-wrap w-full lg:justify-center text-blue-400 text-base">{ dictionary.date }</span>
         { dictionary.title }
       </div>
-      <div className="flex flex-wrap grow w-full justify-center text-justify text-lg text-gray-600">
+      <div className="flex flex-wrap grow w-full text-lg text-gray-600">
         { dictionary.subtitle }
       </div>
       <div className="flex flex-wrap grow w-full justify-center text-justify">
