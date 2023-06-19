@@ -166,6 +166,12 @@ const news = [
     name: `Convocadas dos marchas desde Getafe y Villaverde contra la celebración del Mad Cool`,
     alt: `la calle`,
     url: `https://alcabodelacalle.es/convocadas-dos-marchas-desde-getafe-y-villaverde-contra-la-celebracion-del-mad-cool`
+  },
+  {
+    date: `2023/06/19`,
+    name: `Afectados por MadCool en Getafe marcharán el 27 de junio`,
+    alt: `telemadrid`,
+    url: `https://www.telemadrid.es/noticias/madrid/Afectados-por-MadCool-en-Getafe-marcharan-el-27-de-junio-0-2570742916--20230619074542.html`
   }
 ]
 
