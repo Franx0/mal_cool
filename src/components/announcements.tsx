@@ -12,7 +12,7 @@ export default function Announcements({dictionary}: any) {
   const announcements = (announcements: Array<Announcement>): Array<ReactElement> => {
     return announcements.map((announcement: Announcement, i: number) => {
       return(
-        <a className="flex m-6 lg:" target="_blank" href={announcement.url}>
+        <a key={i} className="flex m-6 lg:" target="_blank" href={announcement.url}>
           <Image
             src={announcement.url}
             alt={announcement.alt}
@@ -27,7 +27,7 @@ export default function Announcements({dictionary}: any) {
 
   return (
     <div className="flex flex-wrap w-full max-w-7xl mb-10 lg:pl-10 items-center justify-between text-lg text-justify">
-      <div className="flex flex-wrap grow w-full mb-6 justify-center text-justify text-xl">
+      <div className="flex flex-wrap grow w-full mb-6 justify-center text-justify text-2xl">
         <span className="flex flex-wrap w-full justify-center text-blue-400">{ dictionary.date }</span>
         { dictionary.title }
       </div>
