@@ -24,6 +24,12 @@ const news = [
     url: `https://noticiasparamunicipios.com/municipios-madrid/getafe-temor-entre-los-vecinos-mad-cool-tendra-recinto-estable-a-300-metros-de-getafe-norte/`
   },
   {
+    date: `2023/03/08`,
+    name: `Los vecinos de Getafe se movilizan contra el traslado del 'Mad Cool' a Villaverde`,
+    alt: `la vanguardia`,
+    url: `https://www.lavanguardia.com/local/madrid/20230308/8809108/vecinos-getafe-movilizan-traslado-mad-cool-villaverde.html`
+  },
+  {
     date: `2023/03/10`,
     name: `30000 vecinos de Getafe sufrirán el ruido y las molestias del festival Mad Cool`,
     alt: `cadena ser`,
@@ -46,6 +52,12 @@ const news = [
     name: `El Defensor del Pueblo admite a trámite la reclamación sobre un espacio para macrofestivales`,
     alt: `el periódico getafe`,
     url: `https://periodicogetafe.blogspot.com/2023/05/el-defensor-del-pueblo-admite-tramite.html`
+  },
+  {
+    date: `2023/03/14`,
+    name: `Por qué nadie quiere el Mad Cool: del "problemón" con el Zendal a casas cerca de "drogas y borracheras"`,
+    alt: `el español`,
+    url: `https://www.elespanol.com/madrid/sociedad/20230314/quiere-mad-cool-problemon-zendal-drogas-borracheras/747425624_0.html`
   },
   {
     date: `2023/05/20`,
@@ -148,6 +160,12 @@ const news = [
     name: `Afectados por Mad Cool marcharán el 27 de junio contra el nuevo recinto para macrofestivales`,
     alt: `el periódico getafe`,
     url: `https://periodicogetafe.blogspot.com/2023/06/afectados-por-mad-cool-marcharan-el-27.html`
+  },
+  {
+    date: `2023/06/19`,
+    name: `Convocadas dos marchas desde Getafe y Villaverde contra la celebración del Mad Cool`,
+    alt: `la calle`,
+    url: `https://alcabodelacalle.es/convocadas-dos-marchas-desde-getafe-y-villaverde-contra-la-celebracion-del-mad-cool`
   }
 ]
 
