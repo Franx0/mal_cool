@@ -130,6 +130,24 @@ const news = [
     name: `Mad Cool propone que la mayoría de su público acuda en coche a Villaverde en lugar de usar transporte colectivo `,
     alt: `ElDiario.es`,
     url: `https://www.eldiario.es/madrid/somos/mad-cool-propone-mayoria-publico-acuda-coche-villaverde-lugar-transporte-colectivo_1_10287345.html`
+  },
+  {
+    date: `2023/06/14`,
+    name: `Macrofestivales: malos tiempos para la lírica`,
+    alt: `ElDiario.es`,
+    url: `https://www.eldiario.es/carnecruda/programas/macrofestivales-malos-tiempos-lirica_132_10294684.html`
+  },
+  {
+    date: `2023/06/19`,
+    name: `Macro Mad Cool`,
+    alt: `san cristobal de los angeles barrio sur`,
+    url: `https://sancristobaldelosangelesbarriosur.blogspot.com/2023/06/segun-un-estudio-de-ipg-mediabrands-los.html`
+  },
+  {
+    date: `2023/06/19`,
+    name: `Afectados por Mad Cool marcharán el 27 de junio contra el nuevo recinto para macrofestivales`,
+    alt: `el periódico getafe`,
+    url: `https://periodicogetafe.blogspot.com/2023/06/afectados-por-mad-cool-marcharan-el-27.html`
   }
 ]
 

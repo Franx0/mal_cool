@@ -10,6 +10,25 @@ const dictionary = {
   header: {
     title: `Los vecinos de Villaverde y Getafe crean la plataforma vecinal Stop Espacio Mad Cool en rechazo a este nuevo espacio destinado a macrofestivales en una localización muy cercana a los barrios y viviendas de Marconi y Getafe Norte.`,
   },
+  announcements: {
+    date: "27 de Junio de 2023 - 19:30",
+    title: "Marcha contra el nuevo recinto permanente de macrofestivales",
+    subtitle: "Dos columnas vecinales luchando por sus derechos. Una columna partirá desde la estación de cercanías Renfe de San Cristóbal Industrial y la otra desde la sede de la asociación de vecinos de Getafe Norte.\nÚnete, ¡os esperamos!",
+    all: [
+      {
+        alt: "Recorrido desde Getafe",
+        url: "https://drive.google.com/uc?export=view&id=18UKLnog5Iq9JO_i21T_BEd7Z3OPPWfYl",
+        width: 300,
+        height: 423,
+      },
+      {
+        alt: "Recorrido desde Villaverde",
+        url: "https://drive.google.com/uc?export=view&id=1z1yXQomq4eJYUrUOHkVOfZUqwYh96hio",
+        width: 300,
+        height: 423,
+      },
+    ],
+  },
   contact: {
     text: `<span>Si tienes más preguntas o quieres conocer que nuevas actuaciones estamos llevando a cabo puedes seguirnos en nuestras redes sociales o también puedes escribirnos a nuestra dirección de correo electrónico: <a href={'mailto:stopmadcoolvillaverde@gmail.com?subject=A la plataforma Stop Mad Cool' class="text-sm lg:text-lg text-blue-400">stopmadcoolvillaverde@gmail.com</a></span>`,
     follow: `Siguenos en: `,

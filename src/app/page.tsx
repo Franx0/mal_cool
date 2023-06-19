@@ -2,6 +2,7 @@ import Separator from '@/components/shared/separator'
 import dictionary from '@/languages/es'
 
 import Header from '@/components/header'
+import Announcements from '@/components/announcements'
 import Contact from '@/components/contact'
 import PressRelease from '@/components/pressRelease'
 import Meetings from '@/components/meetings'
@@ -13,6 +14,8 @@ export default function Home() {
     <main className="flex flex-col min-h-screen items-center justify-between p-12 font-mono font-medium">
       {/* Header */}
       <Header dictionary={dictionary.header} />
+      {/* Announcements */}
+      <Announcements dictionary={dictionary.announcements}/>
       {/* Press release */}
       <PressRelease dictionary={dictionary.pressRelease}/>
       {/* Location */}
