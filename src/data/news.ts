@@ -172,6 +172,18 @@ const news = [
     name: `Afectados por MadCool en Getafe marcharán el 27 de junio`,
     alt: `telemadrid`,
     url: `https://www.telemadrid.es/noticias/madrid/Afectados-por-MadCool-en-Getafe-marcharan-el-27-de-junio-0-2570742916--20230619074542.html`
+  },
+  {
+    date: `2023/06/20`,
+    name: `Mahou San Miguel adquiere el 51% de la empresa que gestiona el nuevo recinto del Mad Cool`,
+    alt: `ElDiario.es`,
+    url: `https://www.eldiario.es/cultura/musica/mahou-san-miguel-adquiere-51-empresa-organiza-festival-mad-cool_1_10309875.html`
+  },
+  {
+    date: `2023/06/21`,
+    name: `FACUA Madrid exige un nuevo plan de ruidos y revisar las autorizaciones del Mad Cool`,
+    alt: `facua`,
+    url: `http://facua.org/es/noticia.php?Id=19711`
   }
 ]
 
