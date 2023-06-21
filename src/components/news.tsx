@@ -31,7 +31,7 @@ export default function News({dictionary}: any) {
             <span className="text-sm text-blue-500">{formatDate(nw.date)} - </span>
             <span className="text-sm text-blue-800">{titlelize(nw.alt)}</span>
           </div>
-          <a href={nw.url} hrefLang="es" target="_blank" title={nw.alt}>{nw.name}</a>
+          <a className="hover:text-blue-600" href={nw.url} hrefLang="es" target="_blank" title={nw.alt}>{nw.name}</a>
         </li>
       )
     })
