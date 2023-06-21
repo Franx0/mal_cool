@@ -184,6 +184,12 @@ const news = [
     name: `FACUA Madrid exige un nuevo plan de ruidos y revisar las autorizaciones del Mad Cool`,
     alt: `facua`,
     url: `http://facua.org/es/noticia.php?Id=19711`
+  },
+  {
+    date: `2023/06/21`,
+    name: `La línea 3 de Metro alargará su cierre hasta las 4.00 para la salida en transporte público del Mad Cool`,
+    alt: `ElDiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/linea-3-metro-alargara-cierre-4-00-salida-transporte-publico-mad-cool_1_10314482.html`
   }
 ]
 
