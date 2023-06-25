@@ -32,7 +32,7 @@ const dictionary = {
   contact: {
     text: `<span>Si tienes más preguntas o quieres conocer que nuevas actuaciones estamos llevando a cabo puedes seguirnos en nuestras redes sociales o también puedes escribirnos a nuestra dirección de correo electrónico: <a href={'mailto:stopmadcoolvillaverde@gmail.com?subject=A la plataforma Stop Mad Cool' class="text-sm lg:text-lg text-blue-400">stopmadcoolvillaverde@gmail.com</a></span>`,
     follow: `Siguenos en: `,
-    telegram: `https://t.me/+tk3lq4k9hy1jMzI8`,
+    telegram: `https://t.me/+g1qjjDh8kNpjYjk0`,
     twitter: `https://twitter.com/StopMadcool_23?ref_src=twsrc%5Etfw`,
     facebook: `https://www.facebook.com/groups/487527109806848/`,
   },
