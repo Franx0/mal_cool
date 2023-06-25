@@ -230,7 +230,7 @@ const news = [
   {
     date: `2023/06/23`,
     name: `Marcha vecinal contra el nuevo recinto para macrofestivales`,
-    alt: `periodico distritor de villaverde`,
+    alt: `periodico distrito de villaverde`,
     url: `https://distritovillaverde.com/marcha-vecinal-contra-el-nuevo-recinto-para-macrofestivales/`
   }
 ]
