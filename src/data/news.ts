@@ -190,6 +190,48 @@ const news = [
     name: `La línea 3 de Metro alargará su cierre hasta las 4.00 para la salida en transporte público del Mad Cool`,
     alt: `ElDiario.es`,
     url: `https://www.eldiario.es/madrid/somos/linea-3-metro-alargara-cierre-4-00-salida-transporte-publico-mad-cool_1_10314482.html`
+  },
+  {
+    date: `2023/06/22`,
+    name: `Más horas de Metro y escenarios con límite de ruido: el lavado de cara del Mad Cool ante las quejas de los vecinos`,
+    alt: `el mundo`,
+    url: `https://www.elmundo.es/madrid/2023/06/22/649337ad21efa09a178b4571.html`
+  },
+  {
+    date: `2023/06/22`,
+    name: `Lo que se sabe (y lo que no) del Mad Cool a sólo dos semanas de su inicio: preguntas, respuestas e incertidumbres`,
+    alt: `abc`,
+    url: `https://www.abc.es/cultura/musica/sabe-mad-cool-solo-dos-semanas-inicio-20230622043016-nt_amp.html`
+  },
+  {
+    date: `2023/06/23`,
+    name: `El Ayuntamiento de Getafe apoya la concentración contra Mad Cool`,
+    alt: `madrid es noticia`,
+    url: `https://www.madridesnoticia.es/2023/06/concentracion-contra-mad-cool/`
+  },
+  {
+    date: `2023/06/23`,
+    name: `GETAFE/ El Ayuntamiento medirá el ruido en viviendas durante el ‘Mad Cool’`,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/municipios-madrid/getafe-el-ayuntamiento-medira-el-ruido-en-viviendas-durante-el-mad-cool-ultima-hora`
+  },
+  {
+    date: `2023/06/23`,
+    name: `El Ayuntamiento de Getafe apoya la concentración contra Mad Cool y otros macroconciertos`,
+    alt: `getafe.`,
+    url: `https://getafe.es/el-ayuntamiento-de-getafe-apoya-la-concentracion-contra-mad-cool-y-otros-macroconciertos/`
+  },
+  {
+    date: `2023/06/23`,
+    name: `Getafe y Villaverde se movilizan contra el Madcool`,
+    alt: `aavv madrid`,
+    url: `https://aavvmadrid.org/convivencia-y-seguridad/getafe-y-villaverde-se-movilizan-contra-el-madcool/`
+  },
+  {
+    date: `2023/06/23`,
+    name: `Marcha vecinal contra el nuevo recinto para macrofestivales`,
+    alt: `periodico distritor de villaverde`,
+    url: `https://distritovillaverde.com/marcha-vecinal-contra-el-nuevo-recinto-para-macrofestivales/`
   }
 ]
 
