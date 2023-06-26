@@ -232,6 +232,12 @@ const news = [
     name: `Marcha vecinal contra el nuevo recinto para macrofestivales`,
     alt: `periodico distrito de villaverde`,
     url: `https://distritovillaverde.com/marcha-vecinal-contra-el-nuevo-recinto-para-macrofestivales/`
+  },
+  {
+    date: `2023/06/24`,
+    name: `El Ayuntamiento de Getafe, contra el Mad Cool en Villaverde: apoya las protestas vecinales y anuncia que medirá el ruido`,
+    alt: `ElDiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/ayuntamiento-getafe-mad-cool-villaverde-apoya-protestas-vecinales-anuncia-medira-ruido_1_10323090.html`
   }
 ]
 
