@@ -9,7 +9,7 @@ type Announcement = {
 }
 
 export default function Announcements({dictionary}: any) {
-  if(!dictionary) return null
+  if(!dictionary.length) return null
 
   const announcements = (announcements: Array<Announcement>): Array<ReactElement> => {
     return announcements.map((announcement: Announcement, i: number) => {

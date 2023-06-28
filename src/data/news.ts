@@ -238,6 +238,24 @@ const news = [
     name: `El Ayuntamiento de Getafe, contra el Mad Cool en Villaverde: apoya las protestas vecinales y anuncia que medirá el ruido`,
     alt: `ElDiario.es`,
     url: `https://www.eldiario.es/madrid/somos/ayuntamiento-getafe-mad-cool-villaverde-apoya-protestas-vecinales-anuncia-medira-ruido_1_10323090.html`
+  },
+  {
+    date: `2023/06/26`,
+    name: `Getafe y Villaverde se movilizan contra Mad Cool`,
+    alt: `Madrid Diario`,
+    url: `https://www.madridiario.es/getafe-villaverde-movilizan-contra-mad-cool`
+  },
+  {
+    date: `2023/06/27`,
+    name: `Cientos de vecinos de Villaverde y Getafe protestan contra Mad Cool, primer evento de un recinto que “es una invasión”`,
+    alt: `ElDiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/cientos-vecinos-villaverde-getafe-protestan-mad-cool-primer-evento-recinto-invasion_1_10330491.amp.html`
+  },
+  {
+    date: `2023/06/28`,
+    name: `Unas 2.000 personas marchan contra el espacio para macrofestivales Mad Cool`,
+    alt: `20minutos`,
+    url: `https://www.20minutos.es/noticia/5142131/0/unas-2-000-personas-marchan-contra-espacio-para-macrofestivales-mad-cool/`
   }
 ]
 
