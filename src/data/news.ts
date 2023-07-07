@@ -252,10 +252,82 @@ const news = [
     url: `https://www.eldiario.es/madrid/somos/cientos-vecinos-villaverde-getafe-protestan-mad-cool-primer-evento-recinto-invasion_1_10330491.amp.html`
   },
   {
+    date: `2023/06/27`,
+    name: `Los vecinos de Getafe y Villaverde, contra la nueva ubicación del MAD COOL`,
+    alt: `Madrid Directo`,
+    url: `https://www.telemadrid.es/programas/madrid-directo/Los-vecinos-de-Getafe-y-Villaverde-contra-la-nueva-ubicacion-del-MAD-COOL-2-2573162705--20230627092614.html`
+  },
+  {
     date: `2023/06/28`,
     name: `Unas 2.000 personas marchan contra el espacio para macrofestivales Mad Cool`,
     alt: `20minutos`,
     url: `https://www.20minutos.es/noticia/5142131/0/unas-2-000-personas-marchan-contra-espacio-para-macrofestivales-mad-cool/`
+  },
+  {
+    date: `2023/06/28`,
+    name: `Debut del Mad Cool en Villaverde: contará con más Metro, seguridad y público`,
+    alt: `la razon`,
+    url: `https://www.larazon.es/madrid/debut-mad-cool-villaverde-contara-mas-metro-seguridad-publico_20230628649c752241ef3d0001b6be63.html?outputType=amp`
+  },
+  {
+    date: `2023/06/28`,
+    name: `Facua sobre Madcool`,
+    alt: `lega radio`,
+    url: `https://www.youtube.com/live/J1S8czD9Wdk?feature=share`
+  },
+  {
+    date: `2023/06/29`,
+    name: `Getafe alerta a Guardia Civil, Ayuntamiento de Madrid y Comunidad de los problemas de Mad Cool y el recinto de macrofestivales`,
+    alt: `getafe.`,
+    url: `https://getafe.es/getafe-alerta-a-guardia-civil-ayuntamiento-de-madrid-y-comunidad-de-los-problemas-de-mad-cool-y-el-recinto-de-macrofestivales/`
+  },
+  {
+    date: `2023/06/29`,
+    name: `GETAFE/ Nuevo intento para frenar el Mad Cool: cartas de alerta a todas las autoridades`,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/municipios-madrid/getafe-nuevo-intento-para-frenar-el-mad-cool-cartas-a-todas-las-autoridades/`
+  },
+  {
+    date: `2023/06/29`,
+    name: `El Ayuntamiento diseña un plan de movilidad especial para el Mad Cool de Villaverde`,
+    alt: `el mundo`,
+    url: `https://www.elmundo.es/madrid/2023/06/29/649daaed21efa0b93d8b45b1.html`
+  },
+  {
+    date: `2023/07/01`,
+    name: `Los secretos de los festivales de música para sacarte (a ti, a artistas y a proveedores) hasta el último céntimo`,
+    alt: `el periodico de españa`,
+    url: `https://www.epe.es/es/reportajes/20230628/festivales-musica-negocio-89196537`
+  },
+  {
+    date: `2023/07/04`,
+    name: `Dormir a 300 metros de un macrofestival: así afectan a los barrios eventos masivos como el Mad Cool`,
+    alt: `publico`,
+    url: `https://www.publico.es/sociedad/dormir-300-metros-macrofestival-afectan-barrios-eventos-masivos-mad-cool.html/amp`
+  },
+  {
+    date: `2023/07/05`,
+    name: `El recinto del Mad Cool se llamará Iberdrola Music y se alimentará a base de energía verde`,
+    alt: `20minutos`,
+    url: `https://www.20minutos.es/noticia/5144798/0/recinto-mad-cool-se-llamara-iberdrola-music-sera-un-espacio-energia-renovable/`
+  },
+  {
+    date: `2023/07/06`,
+    name: `Arranca el MadCool 2023 con el malestar de los vecinos de Villaverde y Getafe`,
+    alt: `telemadrid`,
+    url: `https://www.telemadrid.es/programas/telenoticias-1/Arranca-el-MadCool-2023-con-el-malestar-de-los-vecinos-de-Villaverde-y-Getafe-2-2575862410--20230706032539.html`
+  },
+  {
+    date: `2023/07/07`,
+    name: `Mad Cool festival estrena recinto`,
+    alt: `rtve`,
+    url: `https://www.rtve.es/play/videos/telediario/mas-cien-bandas-actuaran-festival-mad-cool/6928683/`
+  },
+  {
+    date: `2023/07/07`,
+    name: `Comienza Mad Cool con la inquietud en Getafe Norte: “Nos preocupan los decibelios y la salida del recinto de madrugada”`,
+    alt: `cadena ser`,
+    url: `https://cadenaser.com/cmadrid/2023/07/06/comienza-mad-cool-con-la-inquietud-en-getafe-norte-nos-preocupan-los-decibelios-y-la-salida-del-recinto-a-las-3-de-la-manana-ser-madrid-sur/`
   }
 ]
 
