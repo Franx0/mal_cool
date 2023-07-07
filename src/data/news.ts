@@ -318,6 +318,12 @@ const news = [
     url: `https://www.telemadrid.es/programas/telenoticias-1/Arranca-el-MadCool-2023-con-el-malestar-de-los-vecinos-de-Villaverde-y-Getafe-2-2575862410--20230706032539.html`
   },
   {
+    date: `2023/07/06`,
+    name: `Así fue la peor edición del Mad Cool: ¿Podría repetirse?`,
+    alt: `publico`,
+    url: `https://www.publico.es/uwu/cultura/asi-fue-la-peor-edicion-del-mad-cool-podria-repetirse/`
+  },
+  {
     date: `2023/07/07`,
     name: `Mad Cool festival estrena recinto`,
     alt: `rtve`,
