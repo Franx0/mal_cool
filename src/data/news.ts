@@ -110,7 +110,7 @@ const news = [
   {
     date: `2023/06/12`,
     name: `Mad Cool presenta su nuevo recinto en Villaverde: en medio de un trigal, lejos del transporte público y con quejas vecinales `,
-    alt: `ElDiario.es`,
+    alt: `eldiario.es`,
     url: `https://www.eldiario.es/madrid/somos/mad-cool-presenta-nuevo-recinto-villaverde-medio-trigal-lejos-transporte-publico-quejas-vecinales_1_10270222.html`
   },
   {
@@ -140,13 +140,13 @@ const news = [
   {
     date: `2023/06/14`,
     name: `Mad Cool propone que la mayoría de su público acuda en coche a Villaverde en lugar de usar transporte colectivo `,
-    alt: `ElDiario.es`,
+    alt: `eldiario.es`,
     url: `https://www.eldiario.es/madrid/somos/mad-cool-propone-mayoria-publico-acuda-coche-villaverde-lugar-transporte-colectivo_1_10287345.html`
   },
   {
     date: `2023/06/14`,
     name: `Macrofestivales: malos tiempos para la lírica`,
-    alt: `ElDiario.es`,
+    alt: `eldiario.es`,
     url: `https://www.eldiario.es/carnecruda/programas/macrofestivales-malos-tiempos-lirica_132_10294684.html`
   },
   {
@@ -176,7 +176,7 @@ const news = [
   {
     date: `2023/06/20`,
     name: `Mahou San Miguel adquiere el 51% de la empresa que gestiona el nuevo recinto del Mad Cool`,
-    alt: `ElDiario.es`,
+    alt: `eldiario.es`,
     url: `https://www.eldiario.es/cultura/musica/mahou-san-miguel-adquiere-51-empresa-organiza-festival-mad-cool_1_10309875.html`
   },
   {
@@ -188,14 +188,14 @@ const news = [
   {
     date: `2023/06/21`,
     name: `La línea 3 de Metro alargará su cierre hasta las 4.00 para la salida en transporte público del Mad Cool`,
-    alt: `ElDiario.es`,
+    alt: `eldiario.es`,
     url: `https://www.eldiario.es/madrid/somos/linea-3-metro-alargara-cierre-4-00-salida-transporte-publico-mad-cool_1_10314482.html`
   },
   {
     date: `2023/06/22`,
     name: `Más horas de Metro y escenarios con límite de ruido: el lavado de cara del Mad Cool ante las quejas de los vecinos`,
     alt: `el mundo`,
-    url: `https://www.elmundo.es/madrid/2023/06/22/649337ad21efa09a178b4571.html`
+    url: `https://www. .es/madrid/2023/06/22/649337ad21efa09a178b4571.html`
   },
   {
     date: `2023/06/22`,
@@ -236,7 +236,7 @@ const news = [
   {
     date: `2023/06/24`,
     name: `El Ayuntamiento de Getafe, contra el Mad Cool en Villaverde: apoya las protestas vecinales y anuncia que medirá el ruido`,
-    alt: `ElDiario.es`,
+    alt: `eldiario.es`,
     url: `https://www.eldiario.es/madrid/somos/ayuntamiento-getafe-mad-cool-villaverde-apoya-protestas-vecinales-anuncia-medira-ruido_1_10323090.html`
   },
   {
@@ -248,7 +248,7 @@ const news = [
   {
     date: `2023/06/27`,
     name: `Cientos de vecinos de Villaverde y Getafe protestan contra Mad Cool, primer evento de un recinto que “es una invasión”`,
-    alt: `ElDiario.es`,
+    alt: `eldiario.es`,
     url: `https://www.eldiario.es/madrid/somos/cientos-vecinos-villaverde-getafe-protestan-mad-cool-primer-evento-recinto-invasion_1_10330491.amp.html`
   },
   {
@@ -302,7 +302,7 @@ const news = [
   {
     date: `2023/07/04`,
     name: `Dormir a 300 metros de un macrofestival: así afectan a los barrios eventos masivos como el Mad Cool`,
-    alt: `publico`,
+    alt: `público`,
     url: `https://www.publico.es/sociedad/dormir-300-metros-macrofestival-afectan-barrios-eventos-masivos-mad-cool.html/amp`
   },
   {
@@ -320,8 +320,26 @@ const news = [
   {
     date: `2023/07/06`,
     name: `Así fue la peor edición del Mad Cool: ¿Podría repetirse?`,
-    alt: `publico`,
+    alt: `público`,
     url: `https://www.publico.es/uwu/cultura/asi-fue-la-peor-edicion-del-mad-cool-podria-repetirse/`
+  },
+  {
+    date: `2023/07/06`,
+    name: `Madrid aboga por hablar con Getafe para evitar "una batalla política" por el Mad Cool`,
+    alt: `20minutos`,
+    url: `https://www.20minutos.es/noticia/5145056/0/madrid-aboga-por-dialogar-con-getafe-frente-abrir-una-batalla-politica-por-mad-cool/`
+  },
+  {
+    date: `2023/07/06`,
+    name: `Quejas por "colas interminables" para acceder al Mad Cool`,
+    alt: `telemadrid`,
+    url: `https://www.telemadrid.es/noticias/madrid/Quejas-por-colas-interminables-para-acceder-al-Mad-Cool-0-2575842468--20230706081421.html`
+  },
+  {
+    date: `2023/07/06`,
+    name: `Aparcamientos, ruido, suciedad y corte de calles: así afectará Mad Cool a Getafe durante todo el año`,
+    alt: `getafe.es`,
+    url: `https://getafe.es/aparcamientos-ruido-suciedad-y-corte-de-calles-asi-afectara-mad-cool-a-getafe-durante-todo-el-ano/`
   },
   {
     date: `2023/07/07`,
@@ -334,6 +352,156 @@ const news = [
     name: `Comienza Mad Cool con la inquietud en Getafe Norte: “Nos preocupan los decibelios y la salida del recinto de madrugada”`,
     alt: `cadena ser`,
     url: `https://cadenaser.com/cmadrid/2023/07/06/comienza-mad-cool-con-la-inquietud-en-getafe-norte-nos-preocupan-los-decibelios-y-la-salida-del-recinto-a-las-3-de-la-manana-ser-madrid-sur/`
+  },
+  {
+    date: `2023/07/07`,
+    name: `Caos a la salida del Mad Cool: coches que no llegan y precios desorbitados para llegar a casa`,
+    alt: `el pais`,
+    url: `https://elpais.com/espana/madrid/2023-07-07/caos-a-la-salida-del-mad-cool-coches-que-no-llegan-y-precios-desorbitados-para-llegar-a-casa.html`
+  },
+  {
+    date: `2023/07/07`,
+    name: `Leyendas sobre la Colonia Marconi: un barrio 'yonki' donde actuarán los Red Hot Chilli Peppers`,
+    alt: `el confidencial`,
+    url: `https://www.elconfidencial.com/espana/madrid/2023-07-07/colonia-marconi-barrio-yonki-madrid-mad-cool_3691935/`
+  },
+  {
+    date: `2023/07/07`,
+    name: `El lado oscuro de los festivales de música`,
+    alt: `cronica vasca`,
+    url: `https://cronicavasca.elespanol.com/opinion/20230707/el-lado-oscuro-de-los-festivales-musica/776922356_0.amp.html`
+  },
+  {
+    date: `2023/07/07`,
+    name: `El Mad Cool la vuelve a liar: varias horas de cola, salidas cortadas y una única entrada al recinto`,
+    alt: `la sexta`,
+    url: `https://amp.lasexta.com/noticias/cultura/mad-cool-vuelve-liar-varias-horas-cola-salidas-cortadas-unica-entrada-recinto_2023070764a7d7421f11910001edbd84.html`
+  },
+  {
+    date: `2023/07/07`,
+    name: `Facua denuncia al Mad Cool por cobrar a los usuarios los gastos de gestión para recuperar el dinero no gastado`,
+    alt: `20minutos`,
+    url: `https://www.20minutos.es/noticia/5145532/0/facua-denuncia-mad-cool-por-cobrar-gestion-devolucion-dinero-no-gastado/`
+  },
+  {
+    date: `2023/07/08`,
+    name: `Ser vecino del Mad Cool: atascos durante el periodo de acceso al recinto y noches sin dormir`,
+    alt: `el pais`,
+    url: `https://elpais.com/espana/madrid/2023-07-08/ser-vecino-del-mad-cool-atascos-durante-el-periodo-de-acceso-al-recinto-y-noches-sin-dormir.html`
+  },
+  {
+    date: `2023/07/08`,
+    name: `Cómo llegar al Mad Cool 2023: dónde está el recinto, opciones para ir en transporte público y cortes de tráfico`,
+    alt: `cadena ser`,
+    url: `https://cadenaser.com/cmadrid/2023/07/06/como-llegar-al-mad-cool-2023-donde-esta-el-recinto-opciones-para-ir-en-transporte-publico-y-cortes-de-trafico-ser-madrid-sur/`
+  },
+  {
+    date: `2023/07/08`,
+    name: `Atascos y mucha paciencia para regresar a casa tras los conciertos de Mad Cool`,
+    alt: `telemadrid`,
+    url: `https://www.telemadrid.es/programas/telenoticias-fin-de-semana/Atascos-y-mucha-paciencia-para-regresar-a-casa-tras-los-conciertos-de-Mad-Cool-2-2576462329--20230708023146.amp.html`
+  },
+  {
+    date: `2023/07/09`,
+    name: `Unos Red Hot Chili Peppers sin colmillo despiden un Mad Cool masificado`,
+    alt: `el pais`,
+    url: `https://elpais.com/cultura/2023-07-09/unos-red-hot-chili-peppers-sin-colmillo-despiden-un-mad-cool-masificado.html`
+  },
+  {
+    date: `2023/07/09`,
+    name: `Mad Cool: agorafobia para principiantes`,
+    alt: `la razon`,
+    url: `https://www.larazon.es/cultura/musica/mad-cool-agorafobia-principiantes_2023070964aa09fe1f11910001f57941.html`
+  },
+  {
+    date: `2023/07/09`,
+    name: `RNE Crónica Madrid - Madcool (minuto 18:14)`,
+    alt: `rne`,
+    url: `https://rtve-mediavod-lote3.rtve.es/resources/TE_SINFMA/mp3/7/3/1688905006037.mp3?idasset=6931369#t=00:11:49`
+  },
+  {
+    date: `2023/07/09`,
+    name: `Red Hot Chili Peppers supera al colapso claustrofóbico del Mad Cool 2023`,
+    alt: `el independiente`,
+    url: `https://www.elindependiente.com/tendencias/2023/07/09/red-hot-chili-peppers-supera-al-colapso-claustrofobico-del-mad-cool-2023/`
+  },
+  {
+    date: `2023/07/10`,
+    name: `Crónica: Mad Cool Festival 2023, lo mejor y lo peor del “Coachella español”`,
+    alt: `mas decibelios`,
+    url: `https://masdecibelios.es/mad-cool-2023-cronica/`
+  },
+  {
+    date: `2023/07/10`,
+    name: `GETAFE/ El Mad Cool superó «gravemente» los límites de ruido durante sus tres jornadas`,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/municipios-madrid/getafe-el-mad-cool-supero-gravemente-los-limites-de-ruido-durante-sus-tres-jornadas/`
+  },
+  {
+    date: `2023/07/10`,
+    name: `Un detenido, 63 denuncias por venta ilegal y 43 mediciones de ruido en el Mad Cool`,
+    alt: `telemadrid`,
+    url: `https://www.telemadrid.es/noticias/madrid/Un-detenido-63-denuncias-por-venta-ilegal-y-43-mediciones-de-ruido-en-el-Mad-Cool-0-2577042309--20230710015718.amp.html`
+  },
+  {
+    date: `2023/07/10`,
+    name: `El Ayuntamiento de Getafe denuncia que el festival Mad Cool superó los límites de ruido todos los días`,
+    alt: `cadena ser`,
+    url: `https://cadenaser.com/cmadrid/2023/07/10/el-ayuntamiento-de-getafe-denuncia-que-el-festival-mad-cool-supero-los-limites-de-ruido-todos-los-dias-ser-madrid-sur/`
+  },
+  {
+    date: `2023/07/10`,
+    name: `GETAFE/ El acceso peatonal de Getafe Norte al macro-recinto de festivales será eliminado`,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/municipios-madrid/getafe-el-acceso-peatonal-de-getafe-norte-al-macro-recinto-de-festivales-sera-eliminado-ultima-hora/`
+  },
+  {
+    date: `2023/07/13`,
+    name: `GETAFE/ El acceso peatonal de Getafe Norte al macro-recinto de festivales será eliminado`,
+    alt: `eldiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/getafe-corta-paso-municipio-recinto-conciertos-madrid-no-habra-paso-peatonal-limitara-vtc_1_10375154.html`
+  },
+  {
+    date: `2023/07/13`,
+    name: `Plan Especial de Movilidad en Villaverde por el concierto de Harry Styles`,
+    alt: `gacetín madrid`,
+    url: `https://gacetinmadrid.com/2023/07/13/plan-especial-de-movilidad-en-villaverde-por-el-concierto-de-harry-styles/`
+  },
+  {
+    date: `2023/07/13`,
+    name: `El Defensor del Pueblo exige a los ayuntamientos que controlen el ruido de los festivales y de las fiestas patronales`,
+    alt: `público`,
+    url: `https://www.publico.es/sociedad/defensor-del-pueblo-exige-ayuntamientos-controlen-ruido-festivales-y-fiestas-patronales.html`
+  },
+  {
+    date: `2023/07/14`,
+    name: `Almeida reconoce que las fiestas de Villaverde se han trasladado al lugar “menos malo”`,
+    alt: `telemadrid`,
+    url: `https://www.telemadrid.es/noticias/madrid/Almeida-reconoce-que-las-fiestas-de-Villaverde-se-han-trasladado-al-lugar-menos-malo-0-2578242184--20230714013144.amp.html`
+  },
+  {
+    date: `2023/07/14`,
+    name: `Una cola kilométrica para ver a Harry Styles en Villaverde: “Creo que ya hemos salido hasta de Madrid”`,
+    alt: `eldiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/blogs/cocidito/colas-kilometro-ver-harry-styles-villaverde-creo-hemos-salido-madrid_132_10378614.html`
+  },
+  {
+    date: `2023/07/14`,
+    name: `Comienzan a entrar los asistentes al concierto de Harry Styles`,
+    alt: `telemadrid`,
+    url: `https://www.telemadrid.es/programas/telenoticias-1/Comienzan-a-entrar-los-asistentes-al-concierto-de-Harry-Styles-2-2578262178--20230714033642.amp.html`
+  },
+  {
+    date: `2023/07/14`,
+    name: `La odisea de los 'stylers': colas kilométricas, desfallecimientos y "pésima organización" para disfrutar del concierto de sus vidas`,
+    alt: `el mundo`,
+    url: `https://amp.elmundo.es/madrid/2023/07/14/64b19fbae9cf4a54238b45c9.html`
+  },
+  {
+    date: `2023/07/14`,
+    name: `Miles de fans hacen cola para entrar al concierto de Harry Styles en Madrid`,
+    alt: `el periodico`,
+    url: `https://www.elperiodico.com/es/videos/ocio-y-cultura/miles-fans-cola-concierto-harry-styles-madrid/89888556.shtml`
   }
 ]
 
