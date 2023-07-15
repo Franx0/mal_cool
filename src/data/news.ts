@@ -502,6 +502,24 @@ const news = [
     name: `Miles de fans hacen cola para entrar al concierto de Harry Styles en Madrid`,
     alt: `el periodico`,
     url: `https://www.elperiodico.com/es/videos/ocio-y-cultura/miles-fans-cola-concierto-harry-styles-madrid/89888556.shtml`
+  },
+  {
+    date: `2023/07/15`,
+    name: `Una cola kilométrica para ver a Harry Styles en Villaverde: “Creo que ya hemos salido hasta de Madrid”`,
+    alt: `eldiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/blogs/cocidito/colas-kilometro-ver-harry-styles-villaverde-creo-hemos-salido-madrid_132_10378614.html`
+  },
+  {
+    date: `2023/07/15`,
+    name: `Denuncian el colapso provocado por el acceso peatonal al recinto Mad Cool por la rotonda`,
+    alt: `el periódico getafe`,
+    url: `https://periodicogetafe.blogspot.com/2023/07/denuncian-el-colapso-para-facilitar-que.html`
+  },
+  {
+    date: `2023/07/15`,
+    name: `Lluvia de quejas tras el concierto de Harry Styles en Madrid: "Ha sido un despropósito"`,
+    alt: `20minutos`,
+    url: `https://www.20minutos.es/noticia/5147723/0/lluvia-quejas-tras-concierto-harry-styles-madrid-ha-sido-un-desproposito/`
   }
 ]
 
