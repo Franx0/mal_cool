@@ -2,8 +2,12 @@
 const nextConfig = {
   output: 'standalone',
   images: {
-      domains: ["drive.google.com"],
-      formats: ["image/webp"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
   },
   experimental: {
     appDir: true,

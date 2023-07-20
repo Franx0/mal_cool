@@ -1,39 +1,14 @@
-import CustomAnalytics from '@/components/shared/customAnalytics'
+import dictionarySearcher from '@/utilities/dictionary'
+import metadataBuilder from '@/utilities/metadata'
+export async function generateMetadata(): Promise<any> {
+  const { title, description, logoUrl }: any = dictionarySearcher("meta");
 
-import './globals.css'
-import { Inter } from 'next/font/google'
-import dictionary from '@/languages/es'
-
-const inter = Inter({ subsets: ['latin'] })
-
-export const metadata = {
-  title: dictionary.meta.title,
-  description: dictionary.meta.description,
-  openGraph: {
-    title: dictionary.meta.title,
-    description: dictionary.meta.description,
-    images: [
-      {
-        url: dictionary.meta.logoUrl,
-        width: 1600,
-        height: 1000,
-        alt: 'Stop Espacio Mad Cool',
-      },
-    ]
-  },
-  robots: {
-    index: false,
-    follow: true,
-    nocache: true,
-    googleBot: {
-      index: true,
-      follow: false,
-      noimageindex: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
+  return metadataBuilder({
+    title: title,
+    description: description,
+    image: logoUrl,
+    imageAlt: 'Stop Espacio Mad Cool'
+  });
 }
 
 export default function RootLayout({
@@ -42,11 +17,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es">
-      <body className={ inter.className }>
-        {children}
-        {<CustomAnalytics />}
-      </body>
+    <html lang="en">
+      <body>{children}</body>
     </html>
   )
 }

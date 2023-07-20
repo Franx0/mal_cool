@@ -1,33 +1,34 @@
+import Layout from '@/app/layouts'
 import Separator from '@/components/shared/separator'
-import dictionary from '@/languages/es'
 
-import Header from '@/components/header'
 import Announcements from '@/components/announcements'
 import Contact from '@/components/contact'
 import PressRelease from '@/components/pressRelease'
 import Meetings from '@/components/meetings'
 import Location from '@/components/location'
 import News from '@/components/news'
+import Posts from '@/components/posts'
+import dictionarySearcher from '@/utilities/dictionary'
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen items-center justify-between p-12 font-mono font-medium">
-      {/* Header */}
-      <Header dictionary={dictionary.header} />
+    <Layout>
       {/* Announcements */}
-      <Announcements dictionary={dictionary.announcements}/>
+      <Announcements dictionary={dictionarySearcher("announcements")} />
+      {/* Posts */}
+      <Posts dictionary={dictionarySearcher("posts")} />
       {/* Press release */}
-      <PressRelease dictionary={dictionary.pressRelease}/>
+      <PressRelease dictionary={dictionarySearcher("pressRelease")} />
       {/* Location */}
-      <Location dictionary={dictionary.location}/>
+      <Location dictionary={dictionarySearcher("location")} />
       <Separator />
       {/* Meetings */}
-      <Meetings dictionary={dictionary.meetings}/>
+      <Meetings dictionary={dictionarySearcher("meetings")} />
       <Separator />
       {/* Contact */}
-      <Contact dictionary={dictionary.contact}/>
+      <Contact dictionary={dictionarySearcher("contact")} />
       <Separator />
-      <News dictionary={dictionary.news}/>
-    </main>
+      <News dictionary={dictionarySearcher("news")} />
+    </Layout>
   )
 }

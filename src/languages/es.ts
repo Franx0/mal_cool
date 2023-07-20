@@ -52,6 +52,9 @@ const dictionary = {
   },
   news: {
     title: `Noticias relacionadas:`,
+  },
+  posts: {
+    title: `Artículos de la plataforma:`,
   }
 }
 

@@ -4,10 +4,9 @@ import React, { useState } from 'react';
 import type { ReactElement } from 'react'
 import useSWR from 'swr'
 import { formatDate } from '@/utilities'
+import { fetcher } from '@/utilities/fetcher'
 import Pagination from '@/components/shared/pagination'
 import type { New } from '@/pages/api/news/index'
-
-const fetcher = (url: string) => fetch(url).then(res => res.json())
 
 export default function News({dictionary}: any) {
   const [currentPage, setCurrentPage] = useState<number>(1);

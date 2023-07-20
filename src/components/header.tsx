@@ -1,6 +1,9 @@
 import Image from 'next/image'
+import dictionarySearcher from '@/utilities/dictionary'
 
-export default function Header({dictionary}: any) {
+export default function Header() {
+  const dictionary: any = dictionarySearcher("header");
+
   return (
     <div className="flex flex-wrap w-full max-w-7xl mb-10 lg:mb-20 items-center justify-between text-lg text-gray-600 text-justify">
       <div className="flex grow-0 mx-auto mb-6 justify-center lg:pr-2 lg:m-0 lg:w-1/5">

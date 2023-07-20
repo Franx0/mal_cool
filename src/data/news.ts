@@ -520,6 +520,66 @@ const news = [
     name: `Lluvia de quejas tras el concierto de Harry Styles en Madrid: "Ha sido un despropósito"`,
     alt: `20minutos`,
     url: `https://www.20minutos.es/noticia/5147723/0/lluvia-quejas-tras-concierto-harry-styles-madrid-ha-sido-un-desproposito/`
+  },
+  {
+    date: `2023/07/15`,
+    name: `Caos y desorganización tras el concierto de Harry Styles en Madrid: "Atravesar un basurero, un caballo de la policía suelto, la M-45 colapsada..."`,
+    alt: `el mundo`,
+    url: `https://www.elmundo.es/madrid/2023/07/15/64b26adde4d4d8972c8b4585.html`
+  },
+  {
+    date: `2023/07/16`,
+    name: `Los «pecados originales» de Mad Cool: el desastre de un festival sobredimensionado`,
+    alt: `abc`,
+    url: `https://www.abc.es/espana/madrid/abci-pecados-originales-cool-desastre-festival-sobredimensionado-201807160029_noticia.html`
+  },
+  {
+    date: `2023/07/17`,
+    name: `MADRID/ El ‘Reggaeton Beach’ congregará a 80.000 asistentes en el recinto de Villaverde`,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/municipios-madrid/madrid-el-reggaeton-beach-congregara-a-80-000-asistentes-en-el-recinto-de-villaverde/`
+  },
+  {
+    date: `2023/07/17`,
+    name: `Nando Cruz: «A los grandes festivales se les puede exigir una cosa muy sencilla, que es cumplir la ley»`,
+    alt: `abc`,
+    url: `https://www.abc.es/cultura/musica/nando-cruz-grandes-festivales-puede-exigir-sencilla-20230717183558-nt_amp.html`
+  },
+  {
+    date: `2023/07/18`,
+    name: `MUNICIPIOS/ Firmas ‘digitales’ para exigir el cierre del macro-recinto de festivales en Villaverde`,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/municipios-madrid/municipios-firmas-digitales-para-exigir-el-cierre-del-macro-recinto-de-festivales-en-villaverde/`
+  },
+  {
+    date: `2023/07/19`,
+    name: `El concejal de Movilidad de Madrid se reunirá con la alcaldesa par evitar los colapsos del espacio Mad Cool`,
+    alt: `el periodico de getafe`,
+    url: `https://periodicogetafe.blogspot.com/2023/07/el-concejal-de-movilidad-de-madrid-se.html`
+  },
+  {
+    date: `2023/07/19`,
+    name: `Cibeles no autoriza el Reggaeton Beach Festival`,
+    alt: `madriddiario`,
+    url: `https://www.madridiario.es/mvc/amp/noticia/522601/`
+  },
+  {
+    date: `2023/07/19`,
+    name: `Suspendido el Reggaeton Beach Festival en el polémico recinto de Villaverde: Almeida no concederá autorización `,
+    alt: `eldiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/suspendido-reggaeton-beach-festival-polemico-recinto-mad-cool-villaverde-almeida-no-concedera-autorizacion_1_10392089.amp.html`
+  },
+  {
+    date: `2023/07/19`,
+    name: `Cancelan el Reggaeton Beach Festival en Madrid: cómo reclamar el dinero de las entradas y motivos de la cancelación`,
+    alt: `el confidencial`,
+    url: `https://www.elconfidencial.com/espana/madrid/2023-07-19/cancelan-reggaeton-beach-festival-reclamar-dinero_3703677/`
+  },
+  {
+    date: `2023/07/20`,
+    name: `El Ayuntamiento no autoriza el Reggaeton Beach Festival en Villaverde previsto para este fin de semana y la organización mantiene la convocatoria`,
+    alt: `el mundo`,
+    url: `https://amp.elmundo.es/madrid/2023/07/19/64b8081ffc6c83be2f8b45a2.html`
   }
 ]
 

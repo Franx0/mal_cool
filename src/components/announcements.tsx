@@ -15,7 +15,7 @@ export default function Announcements({dictionary}: any) {
   const announcements = (announcements: Array<Announcement>): Array<ReactElement> => {
     return announcements.map((announcement: Announcement, i: number) => {
       return(
-        <a key={i} className="flex m-6 lg:" target="_blank" href={announcement.url}>
+        <a key={i} className="flex mt-20 mb-4" target="_blank" href={announcement.url}>
           <Image
             src={announcement.imageUrl}
             alt={announcement.alt}
