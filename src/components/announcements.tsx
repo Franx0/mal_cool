@@ -1,7 +1,7 @@
 import type { ReactElement } from 'react'
 import Image from 'next/image'
 
-type Announcement = {
+type AnnouncementImage = {
   alt: string,
   url: string,
   imageUrl: string,
@@ -9,18 +9,25 @@ type Announcement = {
   height: number,
 }
 
-export default function Announcements({dictionary}: any) {
-  if(!dictionary) return null
+type Announcement = {
+  title: string,
+  subtitle: string,
+  date?: string,
+  all: Array<AnnouncementImage>
+}
 
-  const announcements = (announcements: Array<Announcement>): Array<ReactElement> => {
-    return announcements.map((announcement: Announcement, i: number) => {
+export default function Announcements({announcements}: any) {
+  if(!announcements) return null
+
+  const announcementsImages = (announcementsImages: Array<AnnouncementImage>): Array<ReactElement> => {
+    return announcementsImages.map((announcementImage: AnnouncementImage, i: number) => {
       return(
-        <a key={i} className="flex mt-20 mb-4" target="_blank" href={announcement.url}>
+        <a key={i} className="flex mt-20 mb-4" target="_blank" href={announcementImage.url}>
           <Image
-            src={announcement.imageUrl}
-            alt={announcement.alt}
-            width={announcement.width}
-            height={announcement.height}
+            src={announcementImage.imageUrl}
+            alt={announcementImage.alt}
+            width={announcementImage.width}
+            height={announcementImage.height}
             priority
           />
         </a>
@@ -28,18 +35,30 @@ export default function Announcements({dictionary}: any) {
     })
   }
 
+  const announcementsList = (announcements: Array<Announcement>): Array<ReactElement> => {
+    return announcements.map((announcement: Announcement, i: number) => {
+      return (
+        <>
+          <div className="flex flex-wrap grow w-full mb-6 justify-left lg:justify-center lg:text-justify text-justify lg:text-2xl text-xl">
+            { announcement.date && <span className="flex flex-wrap w-full lg:justify-center text-blue-400 lg:text-xl text-base">{ announcement.date }</span> }
+            { announcement.title }
+          </div>
+          <div className="flex flex-wrap grow w-full text-lg text-gray-600">
+            { announcement.subtitle }
+          </div>
+          { announcement.all.length > 0 &&
+            <div className="flex flex-wrap grow w-full justify-center text-justify">
+              { announcementsImages(announcement.all)}
+            </div>
+          }
+        </>
+      )
+    });
+  }
+
   return (
     <div className="flex flex-wrap w-full max-w-7xl mb-10 lg:pl-10 items-center justify-between text-lg text-justify">
-      <div className="flex flex-wrap grow w-full mb-6 justify-left lg:justify-center lg:text-justify text-justify lg:text-2xl text-xl">
-        { dictionary.date && <span className="flex flex-wrap w-full lg:justify-center text-blue-400 lg:text-xl text-base">{ dictionary.date }</span> }
-        { dictionary.title }
-      </div>
-      <div className="flex flex-wrap grow w-full text-lg text-gray-600">
-        { dictionary.subtitle }
-      </div>
-      <div className="flex flex-wrap grow w-full justify-center text-justify">
-        {announcements(dictionary.all)}
-      </div>
+      { announcementsList(announcements) }
     </div>
   )
 }

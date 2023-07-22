@@ -8,21 +8,23 @@ const dictionary = {
     logoUrl: 'https://drive.google.com/uc?export=view&id=1Re14bh6TJ9uazDDkrDZm-A-keJJ54Ng4'
   },
   header: {
-    title: `Los vecinos de Villaverde y Getafe crean la plataforma vecinal Stop Espacio Mad Cool en rechazo a este nuevo espacio destinado a macrofestivales en una localización muy cercana a los barrios y viviendas de Marconi y Getafe Norte.`,
+    title: `Los vecinos de Villaverde y Getafe crean la plataforma vecinal Stop Espacio Mad Cool en rechazo al nuevo recinto llamado Iberdrola Music y destinado a albergar macrofestivales en una localización muy cercana a los barrios y viviendas de Colonia Marconi y Getafe Norte.`,
   },
-  announcements: {
-    title: "Firma la petición en nuestro Change.org para que se cese la actividad en este espacio para macrofestivales.",
-    subtitle: "Exigimos el cese inmediato de la actividad de este espacio para macrofestivales así cómo la revisión de la normativa de medio ambiente del Ayuntamiento de Madrid.",
-    all: [
-      {
-        url: `https://chng.it/GByBVVtgSk`,
-        imageUrl: `/images/change_org.png`,
-        alt: `Firma la petición`,
-        width: 300,
-        height: 300,
-      },
-    ],
-  },
+  announcements: [
+    {
+      title: "Firma la petición en nuestro Change.org para que se cese la actividad en este espacio para macrofestivales.",
+      subtitle: "Exigimos el cese inmediato de la actividad de este espacio para macrofestivales así cómo la revisión de la normativa de medio ambiente del Ayuntamiento de Madrid.",
+      all: [
+        {
+          url: `https://chng.it/GByBVVtgSk`,
+          imageUrl: `/images/change_org.png`,
+          alt: `Firma la petición`,
+          width: 300,
+          height: 300,
+        },
+      ],
+    },
+  ],
   contact: {
     text: `<span>Si tienes más preguntas o quieres conocer que nuevas actuaciones estamos llevando a cabo puedes seguirnos en nuestras redes sociales o también puedes escribirnos a nuestra dirección de correo electrónico: <a href={'mailto:stopmadcoolvillaverde@gmail.com?subject=A la plataforma Stop Mad Cool' class="text-sm lg:text-lg text-blue-400">stopmadcoolvillaverde@gmail.com</a></span>`,
     follow: `Siguenos en: `,

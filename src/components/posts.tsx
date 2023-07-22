@@ -27,7 +27,7 @@ export default function Posts({dictionary}: any) {
     return posts.map((post: Post, i: number) => {
       return(
         <Link key={post.slug} className="md:inline-block block px-3 mx-4 md:mb-0 mb-4" href={`/posts/${post.slug}`}>
-          <div className="md:w-96 rounded overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out" >
+          <div className="md:w-96 min-w-fit rounded overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out" >
             <Image
               src={post.imageUrl}
               alt={post.title}
@@ -55,7 +55,7 @@ export default function Posts({dictionary}: any) {
         <>
           <div className="flex flex-col bg-white m-auto p-auto">
             <h4 className="mb-10">{ dictionary.title }</h4>
-            <div className="flex md:overflow-x-scroll pb-10 md:hide-scroll-bar">
+            <div className="flex md:h-full h-80 md:overflow-x-scroll overflow-y-scroll pb-10 md:hide-scroll-bar">
               <div className="w-full max-w-7xl md:flex md:flex-nowrap block">
                 { postsList(posts) }
               </div>

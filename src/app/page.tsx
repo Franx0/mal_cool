@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <Layout>
       {/* Announcements */}
-      <Announcements dictionary={dictionarySearcher("announcements")} />
+      <Announcements announcements={dictionarySearcher("announcements")} />
       {/* Posts */}
       <Posts dictionary={dictionarySearcher("posts")} />
       {/* Press release */}

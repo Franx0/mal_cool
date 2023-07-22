@@ -1,3 +1,4 @@
+import { cache } from 'react'
 import { notFound } from 'next/navigation'
 import PostsLayout from '@/app/layouts/postsLayout'
 import metadataBuilder from '@/utilities/metadata'
@@ -28,7 +29,9 @@ type PostData = {
   html: string
 }
 
-const getPost: Function = async (slug: string) => {
+export const revalidate = 300;
+
+const getPost: Function = cache(async (slug: string) => {
   const response = await fetch(
     `${process.env.NEXT_PUBLIC_BASE_URL!}/api/posts/${slug}`,
     { cache: 'force-cache' }
@@ -37,7 +40,7 @@ const getPost: Function = async (slug: string) => {
   if(response.status == 404) return notFound();
 
   return response.json()
-}
+})
 
 export default async function Page({
   params: { slug }
