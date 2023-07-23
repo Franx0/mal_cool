@@ -35,6 +35,10 @@ const dictionary = {
   meetings: {
     description: `Aquí puedes consultar todas las decisiones y acciones llevadas a cabo por la propia plataforma Stop Espacio Mad Cool como por las distintas asociaciones que la conforman:`,
     all: {
+      "2023/06/27": {
+        description: `Marcha en contra del nuevo recinto para macrofestivales`,
+        docUrl: `https://drive.google.com/uc?export=view&id=11L9Ni7zO5KVphPzXIRekI0YDviqxDzFx`,
+      },
       "2023/05/23": {
         description: `Asamblea de la asociación vecinal de Getafe Norte (AVGN)`,
         docUrl: `https://drive.google.com/uc?export=view&id=1xOYMIID_u6YGhjxO5e5kpCzDbDg00oFn`,
