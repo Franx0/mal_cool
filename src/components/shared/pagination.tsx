@@ -37,7 +37,7 @@ export default function Pagination(
             `
           }
         >
-          <a className="cursor-pointer" onClick={() => onPageChange(page)}>
+          <a href={`#!`} className="cursor-pointer" onClick={() => handlePageChange(page)}>
             {page}
           </a>
         </li>
@@ -53,7 +53,7 @@ export default function Pagination(
         key="Inicio"
         className="lg:mx-4 mx-6"
       >
-        <a className="cursor-pointer" onClick={() => onPageChange(1)}>
+        <a href={`#!`} className="cursor-pointer" onClick={() => handlePageChange(1)}>
           Inicio
         </a>
         &nbsp;...
@@ -70,11 +70,18 @@ export default function Pagination(
         className="lg:mx-4 mx-6"
       >
         ...&nbsp;
-        <a className="cursor-pointer" onClick={() => onPageChange(totalPages)}>
+        <a href={`#!`} className="cursor-pointer" onClick={() => handlePageChange(totalPages)}>
           {totalPages}
         </a>
       </li>
     )
+  }
+
+  const handlePageChange: Function = (
+    page: number
+  ) => {
+    console.log(page)
+    onPageChange(page);
   }
 
   return (

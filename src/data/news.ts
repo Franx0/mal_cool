@@ -580,7 +580,12 @@ const news = [
     name: `El Ayuntamiento no autoriza el Reggaeton Beach Festival en Villaverde previsto para este fin de semana y la organización mantiene la convocatoria`,
     alt: `el mundo`,
     url: `https://amp.elmundo.es/madrid/2023/07/19/64b8081ffc6c83be2f8b45a2.html`
+  },
+  {
+    date: `2023/07/28`,
+    name: `El Coca Cola Music Festival cambia el polémico recinto del Mad Cool por la Caja Mágica`,
+    alt: `eldiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/coca-cola-music-festival-cambia-polemico-recinto-mad-cool-caja-magica_1_10416546.html`
   }
 ]
-
 export default news

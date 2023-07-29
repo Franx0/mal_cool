@@ -1,4 +1,5 @@
 type KeyValuePairNamed = [key: string, value: Array<any>];
+
 export type Pagination = {
   currentPage: number,
   totalPages: number,
