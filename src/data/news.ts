@@ -582,6 +582,24 @@ const news = [
     url: `https://amp.elmundo.es/madrid/2023/07/19/64b8081ffc6c83be2f8b45a2.html`
   },
   {
+    date: `2023/07/21`,
+    name: `El Reggaeton Festival suspende su gira en Madrid y activa el protocolo para devolver el dinero de las entradas`,
+    alt: `europapress`,
+    url: `https://www.europapress.es/madrid/noticia-reggaeton-festival-suspende-gira-madrid-activa-protocolo-devolver-dinero-entradas-20230721101308.html`
+  },
+  {
+    date: `2023/07/28`,
+    name: `Los macrofestivales de música muestran su fatiga: “No hay tantos 'cabezas de cartel' para llenar recintos”`,
+    alt: `eldiario.es`,
+    url: `https://www.eldiario.es/cultura/musica/macrofestivales-musica-muestran-fatiga-no-hay-cabezas-cartel-llenar-recintos_1_10415029.html`
+  },
+  {
+    date: `2023/07/28`,
+    name: `GETAFE/ El ‘Coca Cola Music Experience’ se traslada a la Caja Mágica: «Es otra victoria vecinal»`,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/municipios-madrid/getafe-el-coca-cola-music-experience-se-traslada-a-la-caja-magica-es-otra-victoria-vecinal-ultima-hora/`
+  },
+  {
     date: `2023/07/28`,
     name: `El Coca Cola Music Festival cambia el polémico recinto del Mad Cool por la Caja Mágica`,
     alt: `eldiario.es`,
