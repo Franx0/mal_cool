@@ -38,7 +38,7 @@ export default function Announcements({announcements}: any) {
   const announcementsList = (announcements: Array<Announcement>): Array<ReactElement> => {
     return announcements.map((announcement: Announcement, i: number) => {
       return (
-        <>
+        <div key={i}>
           <div className="flex flex-wrap grow w-full mb-6 justify-left lg:justify-center lg:text-justify text-justify lg:text-2xl text-xl">
             { announcement.date && <span className="flex flex-wrap w-full lg:justify-center text-blue-400 lg:text-xl text-base">{ announcement.date }</span> }
             { announcement.title }
@@ -51,7 +51,7 @@ export default function Announcements({announcements}: any) {
               { announcementsImages(announcement.all)}
             </div>
           }
-        </>
+        </div>
       )
     });
   }

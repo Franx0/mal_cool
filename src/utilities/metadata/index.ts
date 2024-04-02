@@ -7,6 +7,7 @@ export type metadataType = {
 
 export default function metadataBuilder(data: metadataType) {
   return {
+    metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL!),
     title: data.title,
     description: data.description,
     openGraph: {
