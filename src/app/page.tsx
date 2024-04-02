@@ -16,7 +16,7 @@ export default function Home() {
       {/* Announcements */}
       <Announcements announcements={dictionarySearcher("announcements")} />
       {/* Posts */}
-      <Posts dictionary={dictionarySearcher("posts")} />
+      {/* <Posts dictionary={dictionarySearcher("posts")} /> */}
       {/* Press release */}
       <PressRelease dictionary={dictionarySearcher("pressRelease")} />
       {/* Location */}
