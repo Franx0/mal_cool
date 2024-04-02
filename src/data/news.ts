@@ -595,7 +595,7 @@ const news = [
   },
   {
     date: `2023/07/28`,
-    name: `GETAFE/ El ‘Coca Cola Music Experience’ se traslada a la Caja Mágica: «Es otra victoria vecinal»`,
+    name: `El ‘Coca Cola Music Experience’ se traslada a la Caja Mágica: «Es otra victoria vecinal»`,
     alt: `noticias para municipios`,
     url: `https://noticiasparamunicipios.com/municipios-madrid/getafe-el-coca-cola-music-experience-se-traslada-a-la-caja-magica-es-otra-victoria-vecinal-ultima-hora/`
   },
