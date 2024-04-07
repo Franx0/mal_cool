@@ -5,7 +5,7 @@ export function middleware(request: NextRequest) {
   const nonce = Buffer.from(crypto.randomUUID()).toString('base64')
   const cspHeader = `
     default-src 'self' ${process.env.NEXT_PUBLIC_BASE_URL!} https://drive.google.com;
-    script-src 'self' 'nonce-${nonce}' 'strict-dynamic' ${process.env.NEXT_PUBLIC_BASE_URL!} https://vercel.live ${
+    script-src 'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-inline' ${process.env.NEXT_PUBLIC_BASE_URL!} https://vercel.live ${
       isProd() ? "" : `'unsafe-eval'`
     };
     connect-src 'self' https://vercel.live;
@@ -17,6 +17,7 @@ export function middleware(request: NextRequest) {
     form-action 'self';
     frame-ancestors 'none';
     upgrade-insecure-requests;
+    require-trusted-types-for 'script';
 `
   // Replace newline characters and spaces
   const contentSecurityPolicyHeaderValue = cspHeader
