@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import DOMPurify from 'isomorphic-dompurify'
 import Separator from '@/components/shared/separator'
 import { IconBrandTelegram, IconBrandFacebook, IconBrandX } from '@tabler/icons-react';
 
@@ -6,7 +7,7 @@ export default function Contact({dictionary}: any) {
   return (
     <div className="flex-wrap w-full max-w-7xl mb-10 lg:pl-10 items-center justify-between text-lg text-justify">
       <div className="lg:inline-flex"
-           dangerouslySetInnerHTML={{ __html: dictionary.text }}
+        dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(dictionary.text) }}
       ></div>
       <Separator displayBorder={false} />
       <div className="flex flex-wrap">

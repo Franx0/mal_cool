@@ -15,10 +15,10 @@ export default function Home() {
     <Layout>
       {/* Announcements */}
       <Announcements announcements={dictionarySearcher("announcements")} />
-      {/* Posts */}
-      {/* <Posts dictionary={dictionarySearcher("posts")} /> */}
       {/* Press release */}
       <PressRelease dictionary={dictionarySearcher("pressRelease")} />
+      {/* Posts */}
+      {/* <Posts dictionary={dictionarySearcher("posts")} /> */}
       {/* Location */}
       <Location dictionary={dictionarySearcher("location")} />
       <Separator />

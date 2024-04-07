@@ -5,7 +5,7 @@ const dictionary = {
     author: `Stop Espacio Mad Cool`,
     site: `https://www.stopmadcool.com`,
     keywords: `stop madcool marconi villaverde getafe norte`,
-    logoUrl: 'https://drive.google.com/uc?export=view&id=1Re14bh6TJ9uazDDkrDZm-A-keJJ54Ng4'
+    logoUrl: 'https://drive.google.com/thumbnail?id=1Re14bh6TJ9uazDDkrDZm-A-keJJ54Ng4&sz=w2000'
   },
   header: {
     title: `Los vecinos de Villaverde y Getafe crean la plataforma vecinal Stop Espacio Mad Cool en rechazo al nuevo recinto llamado Iberdrola Music y destinado a albergar macrofestivales en una localización muy cercana a los barrios y viviendas de Colonia Marconi y Getafe Norte.`,

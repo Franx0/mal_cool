@@ -55,7 +55,7 @@ export default function Posts({dictionary}: any) {
         <>
           <div className="flex flex-col bg-white m-auto p-auto">
             <h4 className="mb-10">{ dictionary.title }</h4>
-            <div className="flex md:h-full h-80 md:overflow-x-scroll overflow-y-scroll pb-10 md:hide-scroll-bar">
+            <div className="flex md:h-full h-80 overflow-x-scroll overflow-y-scroll pb-10 no-scrollbar">
               <div className="w-full max-w-7xl md:flex md:flex-nowrap block">
                 { postsList(posts) }
               </div>

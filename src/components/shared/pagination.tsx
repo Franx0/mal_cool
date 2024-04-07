@@ -80,7 +80,6 @@ export default function Pagination(
   const handlePageChange: Function = (
     page: number
   ) => {
-    console.log(page)
     onPageChange(page);
   }
 

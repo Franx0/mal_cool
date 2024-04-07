@@ -44,3 +44,13 @@ body {
     @apply w-4/5
   }
 }
+
+.no-scrollbar::-webkit-scrollbar {
+  @apply hidden;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

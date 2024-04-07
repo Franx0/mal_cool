@@ -115,7 +115,7 @@ const news = [
   },
   {
     date: `2023/06/12`,
-    name: `MADRID/ Así es el polémico recinto de festivales donde se celebrará este año Mad Cool`,
+    name: `Así es el polémico recinto de festivales donde se celebrará este año Mad Cool`,
     alt: `noticias para municipios`,
     url: `https://noticiasparamunicipios.com/noticias-madrid/madrid-asi-es-el-polemico-recinto-de-festivales-donde-se-celebrara-este-ano-mad-cool/`
   },
@@ -127,7 +127,7 @@ const news = [
   },
   {
     date: `2023/06/13`,
-    name: `MADRID/ Colonia Marconi se rebela contra el intento de hacer del barrio «un parking para Mad Cool»`,
+    name: `Colonia Marconi se rebela contra el intento de hacer del barrio «un parking para Mad Cool»`,
     alt: `noticias para municipios`,
     url: `https://noticiasparamunicipios.com/noticias-madrid/madrid-colonia-marconi-se-rebela-contra-el-intento-de-hacer-del-barrio-un-parking-para-mad-cool/`
   },
@@ -535,7 +535,7 @@ const news = [
   },
   {
     date: `2023/07/17`,
-    name: `MADRID/ El ‘Reggaeton Beach’ congregará a 80.000 asistentes en el recinto de Villaverde`,
+    name: `El ‘Reggaeton Beach’ congregará a 80.000 asistentes en el recinto de Villaverde`,
     alt: `noticias para municipios`,
     url: `https://noticiasparamunicipios.com/municipios-madrid/madrid-el-reggaeton-beach-congregara-a-80-000-asistentes-en-el-recinto-de-villaverde/`
   },
@@ -547,7 +547,7 @@ const news = [
   },
   {
     date: `2023/07/18`,
-    name: `MUNICIPIOS/ Firmas ‘digitales’ para exigir el cierre del macro-recinto de festivales en Villaverde`,
+    name: `Firmas ‘digitales’ para exigir el cierre del macro-recinto de festivales en Villaverde`,
     alt: `noticias para municipios`,
     url: `https://noticiasparamunicipios.com/municipios-madrid/municipios-firmas-digitales-para-exigir-el-cierre-del-macro-recinto-de-festivales-en-villaverde/`
   },

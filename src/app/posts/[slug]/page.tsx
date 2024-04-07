@@ -1,5 +1,6 @@
 import { cache } from 'react'
 import { notFound } from 'next/navigation'
+import DOMPurify from 'isomorphic-dompurify'
 import PostsLayout from '@/app/layouts/postsLayout'
 import metadataBuilder from '@/utilities/metadata'
 import type { Post } from '@/pages/api/posts/index'
@@ -48,8 +49,8 @@ export default async function Page({
   params: { slug: string }
 }) {
   const post: Post = await getPost(slug);
-  const markup = { __html: post.html };
-
+  const markup = { __html: DOMPurify.sanitize(post.html) };
+  console.log(post.title)
   return (
     <PostsLayout>
       <div className="flex flex-wrap w-full max-w-7xl mb-10 lg:pl-10 items-center justify-between text-lg text-justify">

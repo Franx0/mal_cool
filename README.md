@@ -3,4 +3,4 @@
 
 ## Fuera macro eventos músicales de nuestros barrios.  
 
-![Stop Espacio Mad Cool](https://drive.google.com/uc?export=view&id=1-XoaMez3mgg0Ib-mSANfhgHL9Y2yb1AQ)
+![Stop Espacio Mad Cool](https://drive.google.com/thumbnail?id=1-XoaMez3mgg0Ib-mSANfhgHL9Y2yb1AQ&sz=w1000)
