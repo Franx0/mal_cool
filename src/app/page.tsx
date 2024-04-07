@@ -1,3 +1,6 @@
+import { headers } from 'next/headers';
+import Script from 'next/script';
+
 import Layout from '@/app/layouts'
 import Separator from '@/components/shared/separator'
 
@@ -11,8 +14,10 @@ import Posts from '@/components/posts'
 import dictionarySearcher from '@/utilities/dictionary'
 
 export default function Home() {
+  const nonce: string = headers().get("x-nonce") || "";
+
   return (
-    <Layout>
+    <Layout nonce={nonce}>
       {/* Announcements */}
       <Announcements announcements={dictionarySearcher("announcements")} />
       {/* Press release */}
