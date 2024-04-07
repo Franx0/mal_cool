@@ -5,7 +5,7 @@ export function middleware(request: NextRequest) {
   const nonce = Buffer.from(crypto.randomUUID()).toString('base64')
   const cspHeader = `
     default-src 'self' https://drive.google.com;
-    script-src 'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-inline' https://vercel.live ${
+    script-src 'self' 'nonce-${nonce}' 'unsafe-inline' https://vercel.live ${
       isProd() ? "" : `'unsafe-eval'`
     };
     connect-src 'self' https://vercel.live;
