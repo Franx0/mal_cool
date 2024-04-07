@@ -4,8 +4,8 @@ import { isProd } from '@/utilities'
 export function middleware(request: NextRequest) {
   const nonce = Buffer.from(crypto.randomUUID()).toString('base64')
   const cspHeader = `
-    default-src 'self' ${process.env.NEXT_PUBLIC_BASE_URL!} https://drive.google.com;
-    script-src 'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-inline' ${process.env.NEXT_PUBLIC_BASE_URL!} https://vercel.live ${
+    default-src 'self' https://drive.google.com;
+    script-src 'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-inline' https://vercel.live ${
       isProd() ? "" : `'unsafe-eval'`
     };
     connect-src 'self' https://vercel.live;
