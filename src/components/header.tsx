@@ -9,6 +9,7 @@ export default function Header() {
     <div className="flex flex-wrap w-full max-w-7xl mb-10 lg:mb-20 items-center justify-between text-lg text-gray-600 text-justify">
       <Link className="flex grow-0 mx-auto mb-6 justify-center lg:pr-2 lg:m-0 lg:w-1/5" title="StopMadcool" href="/" passHref>
         <Image
+          className="w-full h-auto"
           src="/images/StopMadcoolLogo.png"
           alt={"Stop MadCool"}
           width={200}

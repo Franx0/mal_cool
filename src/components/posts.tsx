@@ -29,6 +29,7 @@ export default function Posts({dictionary}: any) {
         <Link key={post.slug} className="md:inline-block block px-3 mx-4 md:mb-0 mb-4" href={`/posts/${post.slug}`}>
           <div className="md:w-96 min-w-fit rounded overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out" >
             <Image
+              className="w-full h-auto"
               src={post.imageUrl}
               alt={post.title}
               width={400}

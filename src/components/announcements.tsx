@@ -24,6 +24,7 @@ export default function Announcements({announcements}: any) {
       return(
         <a key={i} className="flex mt-20 mb-4" target="_blank" href={announcementImage.url}>
           <Image
+            className="w-3/4 h-auto mx-auto"
             src={announcementImage.imageUrl}
             alt={announcementImage.alt}
             width={announcementImage.width}
