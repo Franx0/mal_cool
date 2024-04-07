@@ -17,25 +17,26 @@ export default function Home() {
   const nonce: string = headers().get("x-nonce") || "";
 
   return (
-    <Layout>
+    <>
       <Script src="https://..." strategy="afterInteractive" nonce={nonce} />
-
-      {/* Announcements */}
-      <Announcements announcements={dictionarySearcher("announcements")} />
-      {/* Press release */}
-      <PressRelease dictionary={dictionarySearcher("pressRelease")} />
-      {/* Posts */}
-      {/* <Posts dictionary={dictionarySearcher("posts")} /> */}
-      {/* Location */}
-      <Location dictionary={dictionarySearcher("location")} />
-      <Separator />
-      {/* Meetings */}
-      <Meetings dictionary={dictionarySearcher("meetings")} />
-      <Separator />
-      {/* Contact */}
-      <Contact dictionary={dictionarySearcher("contact")} />
-      <Separator />
-      <News dictionary={dictionarySearcher("news")} />
-    </Layout>
+      <Layout>
+        {/* Announcements */}
+        <Announcements announcements={dictionarySearcher("announcements")} />
+        {/* Press release */}
+        <PressRelease dictionary={dictionarySearcher("pressRelease")} />
+        {/* Posts */}
+        {/* <Posts dictionary={dictionarySearcher("posts")} /> */}
+        {/* Location */}
+        <Location dictionary={dictionarySearcher("location")} />
+        <Separator />
+        {/* Meetings */}
+        <Meetings dictionary={dictionarySearcher("meetings")} />
+        <Separator />
+        {/* Contact */}
+        <Contact dictionary={dictionarySearcher("contact")} />
+        <Separator />
+        <News dictionary={dictionarySearcher("news")} />
+      </Layout>
+    </>
   )
 }
