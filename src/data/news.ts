@@ -356,7 +356,7 @@ const news = [
   {
     date: `2023/07/07`,
     name: `Caos a la salida del Mad Cool: coches que no llegan y precios desorbitados para llegar a casa`,
-    alt: `el pais`,
+    alt: `el país`,
     url: `https://elpais.com/espana/madrid/2023-07-07/caos-a-la-salida-del-mad-cool-coches-que-no-llegan-y-precios-desorbitados-para-llegar-a-casa.html`
   },
   {
@@ -386,7 +386,7 @@ const news = [
   {
     date: `2023/07/08`,
     name: `Ser vecino del Mad Cool: atascos durante el periodo de acceso al recinto y noches sin dormir`,
-    alt: `el pais`,
+    alt: `el país`,
     url: `https://elpais.com/espana/madrid/2023-07-08/ser-vecino-del-mad-cool-atascos-durante-el-periodo-de-acceso-al-recinto-y-noches-sin-dormir.html`
   },
   {
@@ -404,7 +404,7 @@ const news = [
   {
     date: `2023/07/09`,
     name: `Unos Red Hot Chili Peppers sin colmillo despiden un Mad Cool masificado`,
-    alt: `el pais`,
+    alt: `el país`,
     url: `https://elpais.com/cultura/2023-07-09/unos-red-hot-chili-peppers-sin-colmillo-despiden-un-mad-cool-masificado.html`
   },
   {
@@ -582,10 +582,28 @@ const news = [
     url: `https://amp.elmundo.es/madrid/2023/07/19/64b8081ffc6c83be2f8b45a2.html`
   },
   {
+    date: `2023/07/20`,
+    name: `El Ayuntamiento subraya que el Reggaeton Beach Festival "no se va a llevar a cabo" y ve "difícil" otro emplazamiento`,
+    alt: `el mundo`,
+    url: `https://www.elmundo.es/madrid/2023/07/20/64b92827fdddff5e718b45a0.html`
+  },
+  {
+    date: `2023/07/21`,
+    name: `El Reggaeton Beach Festival cancela el evento y comienza a devolver el precio de las entradas`,
+    alt: `el país`,
+    url: `https://elpais.com/espana/madrid/2023-07-21/el-reggaeton-beach-festival-cancela-el-evento-y-comienza-a-devolver-las-entradas.html`
+  },
+  {
     date: `2023/07/21`,
     name: `El Reggaeton Festival suspende su gira en Madrid y activa el protocolo para devolver el dinero de las entradas`,
     alt: `europapress`,
     url: `https://www.europapress.es/madrid/noticia-reggaeton-festival-suspende-gira-madrid-activa-protocolo-devolver-dinero-entradas-20230721101308.html`
+  },
+  {
+    date: `2023/07/21`,
+    name: `El RBF activa el protocolo para devolver las entradas`,
+    alt: `madriddiario`,
+    url: `https://www.madridiario.es/reggaeton-beach-festival-activa-protocolo-devolver-entradas`
   },
   {
     date: `2023/07/28`,
@@ -604,6 +622,36 @@ const news = [
     name: `El Coca Cola Music Festival cambia el polémico recinto del Mad Cool por la Caja Mágica`,
     alt: `eldiario.es`,
     url: `https://www.eldiario.es/madrid/somos/coca-cola-music-festival-cambia-polemico-recinto-mad-cool-caja-magica_1_10416546.html`
+  },
+  {
+    date: `2023/10/18`,
+    name: `El Mad Cool 2024 durará cuatro días y volverá al controvertido recinto de Villaverde`,
+    alt: `madriddiario`,
+    url: `https://www.madridiario.es/mad-cool-2024`
+  },
+  {
+    date: `2023/10/18`,
+    name: `Mad Cool amplía a cuatro días su festival de 2024 en el polémico recinto de Villaverde donde fue multado por ruido`,
+    alt: `eldiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/mad-cool-amplia-cuatro-dias-festival-2024-polemico-recinto-villaverde-multado-ruido_1_10607372.html`
+  },
+  {
+    date: `2023/10/18`,
+    name: `Mad Cool volverá al recinto de Villaverde que generó polémica y una multa por ruido`,
+    alt: `20minutos`,
+    url: `https://www.20minutos.es/noticia/5182516/0/mad-cool-volvera-recinto-villaverde-que-genero-polemica-multa-por-ruido/`
+  },
+  {
+    date: `2023/11/24`,
+    name: `Mad Cool repetirá en Villaverde en 2024 con un día más de festival a pesar de las multas`,
+    alt: `abc`,
+    url: `http://www.abc.es/espana/madrid/mad-cool-repetira-villaverde-dia-festival-pesar-20231019140208-nt.html`
+  },
+  {
+    date: `2024/04/30`,
+    name: `La Comunidad de Madrid patrocinará con un millón de euros la próxima edición de Mad Cool`,
+    alt: `ComunidadDeMadrid`,
+    url: `https://www.comunidad.madrid/noticias/2024/04/30/comunidad-madrid-patrocinara-millon-euros-proxima-edicion-mad-cool`
   }
 ]
 export default news

@@ -11,7 +11,7 @@ export type New = {
 }
 
 const index = (req: NextApiRequest, res: NextApiResponse) => {
-  const page: number = parseInt(req.query.page as string);
+  const page: number = parseInt(req.query.page as string) || 1;
   const data: Array<New> = Array.from(newsData).reverse();
   const news = paginate({ news: data }, page);
 

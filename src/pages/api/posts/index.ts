@@ -12,7 +12,7 @@ export type Post = {
 }
 
 const index = (req: NextApiRequest, res: NextApiResponse) => {
-  const page: number = parseInt(req.query.page as string);
+  const page: number = parseInt(req.query.page as string) || 1;
   const data: Array<Post> = Array.from(postsData);
   const posts = paginate({ posts: data }, page);
 
