@@ -49,8 +49,13 @@ export default async function Page({
   params: { slug: string }
 }) {
   const post: Post = await getPost(slug);
-  const markup = { __html: DOMPurify.sanitize(post.html) };
-  console.log(post.title)
+  const markup = { __html: DOMPurify.sanitize(
+    post.html,
+    {
+      ALLOWED_TAGS: ["iframe", "img", "h1", "h2", "span", "p", "i", "blockquote"],
+      ADD_ATTR: ["allow", "allowfullscreen", "frameborder"] }
+  ) };
+
   return (
     <PostsLayout>
       <div className="flex flex-wrap w-full max-w-7xl mb-10 lg:pl-10 items-center justify-between text-lg text-justify">

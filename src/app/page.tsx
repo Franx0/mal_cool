@@ -23,7 +23,7 @@ export default function Home() {
       {/* Press release */}
       <PressRelease dictionary={dictionarySearcher("pressRelease")} />
       {/* Posts */}
-      {/* <Posts dictionary={dictionarySearcher("posts")} /> */}
+      <Posts dictionary={dictionarySearcher("posts")} />
       {/* Location */}
       <Location dictionary={dictionarySearcher("location")} />
       <Separator />

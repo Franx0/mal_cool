@@ -45,6 +45,18 @@ body {
   }
 }
 
+.embed-iframe {
+  @apply w-full mx-auto my-6
+}
+
+@screen sm {
+  .embed-iframe {
+    height: 38rem;
+
+    @apply w-4/5
+  }
+}
+
 .no-scrollbar::-webkit-scrollbar {
   @apply hidden;
 }
