@@ -9,7 +9,7 @@ const PostsLayout: Function = ({
 }) => {
   return (
     <>
-      <Link className= "absolute top-3 right-6" title="Volver" href="/" passHref>
+      <Link className= "fixed top-3 right-6" title="Volver" href="/" passHref>
         <IconArrowBackUp className="m-auto" size={32}/>
       </Link>
       <Layout>
