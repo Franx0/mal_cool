@@ -652,6 +652,54 @@ const news = [
     name: `La Comunidad de Madrid patrocinará con un millón de euros la próxima edición de Mad Cool`,
     alt: `ComunidadDeMadrid`,
     url: `https://www.comunidad.madrid/noticias/2024/04/30/comunidad-madrid-patrocinara-millon-euros-proxima-edicion-mad-cool`
+  },
+  {
+    date: `2024/06/14`,
+    name: `El Ayuntamiento de Madrid confirma que el 'Mad Cool' se va a celebrar en la capital`,
+    alt: `cadena ser`,
+    url: `https://cadenaser.com/cmadrid/2024/06/14/el-ayuntamiento-de-madrid-confirma-que-el-mad-cool-se-va-a-celebrar-en-la-capital-radio-madrid`
+  },
+  {
+    date: `2024/06/14`,
+    name: `El Ayuntamiento de Madrid confirma que el 'Mad Cool' se va a celebrar en la capital`,
+    alt: `cadena ser`,
+    url: `https://cadenaser.com/cmadrid/2024/06/14/el-ayuntamiento-de-madrid-confirma-que-el-mad-cool-se-va-a-celebrar-en-la-capital-radio-madrid`
+  },
+  {
+    date: `2024/07/08`,
+    name: `La Comunidad de Madrid refuerza el transporte público por la celebración del festival Mad Cool`,
+    alt: `metro`,
+    url: `https://www.metromadrid.es/es/nota-de-prensa/2024-07-07/la-comunidad-de-madrid-refuerza-el-transporte-publico-por-la-celebracion-del-festival-mad-cool`
+  },
+  {
+    date: `2024/07/08`,
+    name: `Vecinos de Getafe Norte afean el plan de movilidad de Mad Cool`,
+    alt: `telemadrid`,
+    url: `https://www.telemadrid.es/noticias/madrid/Vecinos-de-Getafe-Norte-afean-el-plan-de-movilidad-de-Mad-Cool-0-2686231409--20240708080058.html`
+  },
+  {
+    date: `2024/07/08`,
+    name: `RNE Crónica Madrid - Madcool (minuto 05:47)`,
+    alt: `rne`,
+    url: `https://rtve-mediavod-lote3.rtve.es/resources/TE_SINFMA/mp3/6/3/1720441178236.mp3?idasset=16178493#t=00:05:47`
+  },
+  {
+    date: `2024/07/09`,
+    name: `Vecinos de Getafe Norte critican las restricciones de aparcamiento y el cierre de accesos al barrio por el Mad Cool`,
+    alt: `cadena ser`,
+    url: `https://cadenaser.com/cmadrid/2024/07/09/vecinos-de-getafe-norte-critican-las-restricciones-de-aparcamiento-y-el-cierre-de-accesos-al-barrio-por-el-mad-cool-ser-madrid-sur`
+  },
+  {
+    date: `2024/07/09`,
+    name: `RNE Crónica Madrid - Madcool (minuto 16:49)`,
+    alt: `rne`,
+    url: `https://rtve-mediavod-lote3.rtve.es/resources/TE_SINFMA/mp3/5/9/1720613920895.mp3?idasset=16181250#t=00:16:49`
+  },
+  {
+    date: `2024/07/11`,
+    name: `El Mad Cool vuelve a provocar las críticas de los vecinos de Getafe Norte por los atascos y cortes de tráfico`,
+    alt: `cadena ser`,
+    url: `https://cadenaser.com/cmadrid/2024/07/11/el-mad-cool-vuelve-a-provocar-las-criticas-de-los-vecinos-de-getafe-norte-por-los-atascos-y-cortes-de-trafico-ser-madrid-sur`
   }
 ]
 export default news
