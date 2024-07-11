@@ -15,7 +15,7 @@ export default function PressRelease({dictionary}: any) {
         <span>{dictionary.download}</span>
         <a className='text-blue-400'
             onClick={() => trackEvent(dictionary.download)}
-            href={dictionary.exportUrl}
+            href={dictionary.pressNoteUrl}
             hrefLang='es'
             referrerPolicy='origin'
             rel='author'
