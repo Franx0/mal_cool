@@ -696,10 +696,22 @@ const news = [
     url: `https://rtve-mediavod-lote3.rtve.es/resources/TE_SINFMA/mp3/5/9/1720613920895.mp3?idasset=16181250#t=00:16:49`
   },
   {
+    date: `2023/07/10`,
+    name: `Arranca un Mad Cool mirado con lupa: «Las mejoras son para los asistentes, no para los vecinos»`,
+    alt: `abc`,
+    url: `https://www.abc.es/espana/madrid/arranca-mad-cool-mirado-lupa-mejoras-asistentes-20240710201043-nt.html`
+  },
+  {
     date: `2024/07/11`,
     name: `El Mad Cool vuelve a provocar las críticas de los vecinos de Getafe Norte por los atascos y cortes de tráfico`,
     alt: `cadena ser`,
     url: `https://cadenaser.com/cmadrid/2024/07/11/el-mad-cool-vuelve-a-provocar-las-criticas-de-los-vecinos-de-getafe-norte-por-los-atascos-y-cortes-de-trafico-ser-madrid-sur`
+  },
+  {
+    date: `2023/07/12`,
+    name: `El nuevo Mad Cool tampoco convence a los vecinos: "Parece que estás durmiendo con el artista cantándote al oído"`,
+    alt: `el mundo`,
+    url: `https://www.elmundo.es/madrid/2024/07/12/66901edae9cf4a9d078b4597.html`
   }
 ]
 export default news
