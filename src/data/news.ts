@@ -696,10 +696,28 @@ const news = [
     url: `https://rtve-mediavod-lote3.rtve.es/resources/TE_SINFMA/mp3/5/9/1720613920895.mp3?idasset=16181250#t=00:16:49`
   },
   {
+    date: `2024/07/10`,
+    name: `Arranca el Mad Cool 2024 con la movilidad en el punto de mira`,
+    alt: `madriddiario`,
+    url: `https://www.madridiario.es/mad-cool-2024-como-llegar`
+  },
+  {
     date: `2024/07/11`,
     name: `El Mad Cool vuelve a provocar las críticas de los vecinos de Getafe Norte por los atascos y cortes de tráfico`,
     alt: `cadena ser`,
     url: `https://cadenaser.com/cmadrid/2024/07/11/el-mad-cool-vuelve-a-provocar-las-criticas-de-los-vecinos-de-getafe-norte-por-los-atascos-y-cortes-de-trafico-ser-madrid-sur`
-  }
+  },
+  {
+    date: `2024/07/11`,
+    name: `Las imágenes del primer día del Mad Cool: “atraco” con los precios, Ayuso y Will Smith viendo a Dua Lipa y quejas vecinales`,
+    alt: `eldiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/blogs/cocidito/imagenes-primer-dia-mad-cool-atraco-precios-ayuso-will-smith-viendo-dua-lipa-quejas-vecinales_132_11515575.html`
+  },
+  {
+    date: `2024/07/13`,
+    name: `RNE Crónica Madrid - Madcool (minuto 06:56)`,
+    alt: `rne`,
+    url: `https://rtve-mediavod-lote3.rtve.es/resources/TE_R15MADR/mp3/7/7/1720874283477.mp3?idasset=16185108#t=00:06:56`
+  },
 ]
 export default news
