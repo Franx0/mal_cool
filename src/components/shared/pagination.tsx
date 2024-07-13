@@ -3,7 +3,7 @@
 import type { Pagination } from '@/utilities/pagination/index'
 
 export default function Pagination(
-  { pagination, onPageChange}: { pagination: Pagination, onPageChange: Function }
+  { id, pagination, onPageChange}: { id: string, pagination: Pagination, onPageChange: Function }
 ) {
   const { totalPages, currentPage } = pagination;
   if (totalPages === 1) return null;
@@ -85,7 +85,7 @@ export default function Pagination(
 
   return (
     <div>
-      <ul className="flex lg:justify-start justify-center overflow-hidden">
+      <ul id={id} className="flex lg:justify-start justify-center overflow-hidden">
         {initialLink()}
         {links()}
         {lastLink()}

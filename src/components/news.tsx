@@ -43,6 +43,7 @@ export default function News({dictionary}: any) {
         {newsList(news)}
       </ul>
       <Pagination
+        id="news-pagination"
         pagination={pagination}
         onPageChange={(page: number) => setCurrentPage(page)}
       />

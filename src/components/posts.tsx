@@ -64,6 +64,7 @@ export default function Posts({dictionary}: any) {
           </div>
           <div>
             <Pagination
+              id="posts-pagination"
               pagination={pagination}
               onPageChange={(page: number) => setCurrentPage(page)}
             />
