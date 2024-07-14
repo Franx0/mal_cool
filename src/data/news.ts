@@ -736,6 +736,13 @@ const news = [
     name: `"No iba a volver, pero aquí estoy": si a nadie le gustan los festivales, qué hacen en Mad Cool`,
     alt: `el confidencial`,
     url: `https://www.elconfidencial.com/cultura/2024-07-14/si-no-gustan-festivales-por-que-van-mad-cool_3923745`
+  },
+  {
+    date: `2024/07/14`,
+    name: `Vecinos de Getafe y Villaverde temen que el recinto del Mad Cool acabe convirtiéndose en otro 'eventódromo'`,
+    alt: `epe.es`,
+    url: `https://www.epe.es/es/espana/madrid/20240714/vecinos-getafe-villaverde-temen-recinto-mad-cool-convierta-eventodromo-105544769`
   }
 ]
+
 export default news
