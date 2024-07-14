@@ -33,15 +33,23 @@ const dictionary = {
     facebook: `https://www.facebook.com/groups/487527109806848/`,
   },
   meetings: {
-    description: `Aquí puedes consultar todas las decisiones y acciones llevadas a cabo por la propia plataforma Stop Espacio Mad Cool como por las distintas asociaciones que la conforman:`,
+    description: `Aquí puedes consultar todas las decisiones acciones y documentos elaborados por la propia plataforma Stop Espacio Mad Cool como por las distintas asociaciones que la conforman:`,
     all: {
       "2023/06/27": {
+        description: `Manifiesto contra el nuevo recinto para macrofestivales`,
+        docUrl: `https://drive.google.com/file/d/1NsATL49JlIWPFhUNeF1hMohaWAjfjpnn/preview`,
+      },
+      "2023/06/26": {
         description: `Marcha en contra del nuevo recinto para macrofestivales`,
         docUrl: `https://drive.google.com/file/d/11L9Ni7zO5KVphPzXIRekI0YDviqxDzFx/preview`,
       },
       "2023/05/23": {
         description: `Asamblea de la asociación vecinal de Getafe Norte (AVGN)`,
         docUrl: `https://drive.google.com/file/d/1xOYMIID_u6YGhjxO5e5kpCzDbDg00oFn/preview`,
+      },
+      "2023/04/07": {
+        description: `Nota de prensa 2023`,
+        docUrl: `https://drive.google.com/file/d/1YlZyC6idBa8DY4IC06dYK9IAqLs3j0BB/preview`,
       },
     }
   },
@@ -60,6 +68,12 @@ const dictionary = {
   },
   posts: {
     title: `Artículos de la plataforma:`,
+  },
+  videos: {
+    "2024/07/13": {
+      text: "NO AL RECINTO IBERDROLA MUSIC",
+      src: "https://www.youtube.com/embed/5Hc8RxvmqEk?si=ncstMqLl87Fi_EeU&rel=0&autoplay=1"
+    },
   }
 }
 

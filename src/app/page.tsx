@@ -6,7 +6,7 @@ import Separator from '@/components/shared/separator'
 
 import Announcements from '@/components/announcements'
 import Contact from '@/components/contact'
-import PressRelease from '@/components/pressRelease'
+import VideoRelease from '@/components/videoRelease'
 import Meetings from '@/components/meetings'
 import Location from '@/components/location'
 import News from '@/components/news'
@@ -18,10 +18,10 @@ export default function Home() {
 
   return (
     <Layout nonce={nonce}>
+      {/* Video viewer */}
+      <VideoRelease dictionary={dictionarySearcher("videos")} />
       {/* Announcements */}
       <Announcements announcements={dictionarySearcher("announcements")} />
-      {/* Press release */}
-      <PressRelease dictionary={dictionarySearcher("pressRelease")} />
       {/* Posts */}
       <Posts dictionary={dictionarySearcher("posts")} />
       {/* Location */}

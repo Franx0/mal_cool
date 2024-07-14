@@ -4,7 +4,7 @@ import { isProd } from '@/utilities'
 export function middleware(request: NextRequest) {
   const nonce = Buffer.from(crypto.randomUUID()).toString('base64')
   const cspHeader = `
-    default-src 'self' https://drive.google.com https://docs.google.com;
+    default-src 'self' https://drive.google.com https://docs.google.com https://www.youtube.com;
     script-src 'self' 'nonce-${nonce}' 'strict-dynamic' 'unsafe-inline' https: http: ${
       isProd() ? "" : `'unsafe-eval'`
     };
