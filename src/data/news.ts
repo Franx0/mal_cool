@@ -742,6 +742,12 @@ const news = [
     name: `Vecinos de Getafe y Villaverde temen que el recinto del Mad Cool acabe convirtiéndose en otro 'eventódromo'`,
     alt: `epe.es`,
     url: `https://www.epe.es/es/espana/madrid/20240714/vecinos-getafe-villaverde-temen-recinto-mad-cool-convierta-eventodromo-105544769`
+  },
+  {
+    date: `2024/07/14`,
+    name: `Crónica: Mad Cool 2024 gana con lo mejor muy por encima de lo peor'`,
+    alt: `masdecibelios`,
+    url: `https://masdecibelios.es/cronica-mad-cool-2024`
   }
 ]
 
