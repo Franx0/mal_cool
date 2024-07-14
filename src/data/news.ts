@@ -730,6 +730,12 @@ const news = [
     name: `RNE Crónica Madrid - Madcool (minuto 06:56)`,
     alt: `rne`,
     url: `https://rtve-mediavod-lote3.rtve.es/resources/TE_R15MADR/mp3/7/7/1720874283477.mp3?idasset=16185108#t=00:06:56`
+  },
+  {
+    date: `2024/07/14`,
+    name: `"No iba a volver, pero aquí estoy": si a nadie le gustan los festivales, qué hacen en Mad Cool`,
+    alt: `el confidencial`,
+    url: `https://www.elconfidencial.com/cultura/2024-07-14/si-no-gustan-festivales-por-que-van-mad-cool_3923745`
   }
 ]
 export default news
