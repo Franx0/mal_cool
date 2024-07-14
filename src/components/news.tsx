@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import type { ReactElement } from 'react'
 import useSWR from 'swr'
 import { formatDate } from '@/utilities'
