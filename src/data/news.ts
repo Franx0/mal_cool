@@ -702,7 +702,7 @@ const news = [
     url: `https://www.madridiario.es/mad-cool-2024-como-llegar`
   },
   {
-    date: `2023/07/10`,
+    date: `2024/07/10`,
     name: `Arranca un Mad Cool mirado con lupa: «Las mejoras son para los asistentes, no para los vecinos»`,
     alt: `abc`,
     url: `https://www.abc.es/espana/madrid/arranca-mad-cool-mirado-lupa-mejoras-asistentes-20240710201043-nt.html`
@@ -720,7 +720,7 @@ const news = [
     url: `https://www.eldiario.es/madrid/somos/blogs/cocidito/imagenes-primer-dia-mad-cool-atraco-precios-ayuso-will-smith-viendo-dua-lipa-quejas-vecinales_132_11515575.html`
   },
   {
-    date: `2023/07/12`,
+    date: `2024/07/12`,
     name: `El nuevo Mad Cool tampoco convence a los vecinos: "Parece que estás durmiendo con el artista cantándote al oído"`,
     alt: `el mundo`,
     url: `https://www.elmundo.es/madrid/2024/07/12/66901edae9cf4a9d078b4597.html`
