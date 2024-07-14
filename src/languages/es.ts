@@ -31,6 +31,7 @@ const dictionary = {
     telegram: `https://t.me/+5pr5MD2fZbVlZWE0`,
     x: `https://twitter.com/StopMadcool_23?ref_src=twsrc%5Etfw`,
     facebook: `https://www.facebook.com/groups/487527109806848/`,
+    tiktok: `https://www.tiktok.com/@plataforma.stop.m`,
   },
   meetings: {
     description: `Aquí puedes consultar todas las decisiones acciones y documentos elaborados por la propia plataforma Stop Espacio Mad Cool como por las distintas asociaciones que la conforman:`,
