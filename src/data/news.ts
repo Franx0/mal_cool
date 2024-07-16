@@ -748,6 +748,12 @@ const news = [
     name: `Crónica: Mad Cool 2024 gana con lo mejor muy por encima de lo peor'`,
     alt: `masdecibelios`,
     url: `https://masdecibelios.es/cronica-mad-cool-2024`
+  },
+  {
+    date: `2024/07/15`,
+    name: `Reacciones y balance del Mad Cool 2024: un “éxito” para políticos madrileños y público, un “desastre” para los vecinos`,
+    alt: `eldiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/reacciones-balance-mad-cool-2024-exito-politicos-madrilenos-publico-desastre-vecinos_1_11523995.html`
   }
 ]
 
