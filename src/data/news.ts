@@ -195,7 +195,7 @@ const news = [
     date: `2023/06/22`,
     name: `Más horas de Metro y escenarios con límite de ruido: el lavado de cara del Mad Cool ante las quejas de los vecinos`,
     alt: `el mundo`,
-    url: `https://www. .es/madrid/2023/06/22/649337ad21efa09a178b4571.html`
+    url: `https://www.elmundo..es/madrid/2023/06/22/649337ad21efa09a178b4571.html`
   },
   {
     date: `2023/06/22`,
@@ -754,7 +754,13 @@ const news = [
     name: `Reacciones y balance del Mad Cool 2024: un “éxito” para políticos madrileños y público, un “desastre” para los vecinos`,
     alt: `eldiario.es`,
     url: `https://www.eldiario.es/madrid/somos/reacciones-balance-mad-cool-2024-exito-politicos-madrilenos-publico-desastre-vecinos_1_11523995.html`
-  }
+  },
+  {
+    date: `2024/07/18`,
+    name: `Mad Cool llegó a niveles de ruido "muy graves" durante 14 mediciones realizadas por el Ayuntamiento de Getafe`,
+    alt: `el mundo`,
+    url: `https://www.elmundo.es/madrid/2024/07/18/6698f9e4fc6c835f0c8b4576.html`
+  },
 ]
 
 export default news
