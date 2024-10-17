@@ -761,6 +761,12 @@ const news = [
     alt: `el mundo`,
     url: `https://www.elmundo.es/madrid/2024/07/18/6698f9e4fc6c835f0c8b4576.html`
   },
+  {
+    date: `2024/10/17`,
+    name: `El Mad Cool se prepara para 2025 ignorando a los vecinos de Getafe`,
+    alt: `Qué`,
+    url: `https://www.que.es/2024/10/17/el-mad-cool-se-prepara-para-2025-ignorando-a-los-vecinos-de-getafe`
+  },
 ]
 
 export default news
