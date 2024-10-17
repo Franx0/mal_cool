@@ -6,8 +6,6 @@ export default function Pagination(
   { id, pagination, onPageChange}: { id: string, pagination: Pagination, onPageChange: Function }
 ) {
   const { totalPages, currentPage } = pagination;
-  if (totalPages === 1) return null;
-
   const pages = () => {
     const rangedPages = Math.min(totalPages, 3);
     const currentPg = currentPage == totalPages ? (currentPage - 1) : currentPage;
@@ -85,7 +83,7 @@ export default function Pagination(
 
   return (
     <div>
-      <ul id={id} className="flex lg:justify-start justify-center overflow-hidden">
+      <ul id={id} className={`flex lg:justify-start justify-center overflow-hidden ${totalPages == 1 && 'hidden'}`}>
         {initialLink()}
         {links()}
         {lastLink()}

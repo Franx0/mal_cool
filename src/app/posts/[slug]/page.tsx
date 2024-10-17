@@ -52,7 +52,7 @@ export default async function Page({
   const markup = { __html: DOMPurify.sanitize(
     post.html,
     {
-      ALLOWED_TAGS: ["iframe", "img", "h1", "h2", "span", "p", "i", "blockquote"],
+      ALLOWED_TAGS: ["iframe", "img", "h1", "h2", "span", "br", "p", "i", "blockquote"],
       ADD_ATTR: ["allow", "allowfullscreen", "frameborder"] }
   ) };
 
