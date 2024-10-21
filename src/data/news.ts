@@ -678,16 +678,16 @@ const news = [
     url: `https://rtve-mediavod-lote3.rtve.es/resources/TE_SINFMA/mp3/6/3/1720441178236.mp3?idasset=16178493#t=00:05:47`
   },
   {
+    date: `2024/07/08`,
+    name: `Madrid vigilará con lupa el Mad Cool 2024 para decidir en septiembre si el recinto para macrofestivales continúa en 2025`,
+    alt: `eldiario.es`,
+    url : `https://www.eldiario.es/madrid/somos/madrid-vigilara-lupa-mad-cool-2024-decidir-si-recinto-continua-2025_1_11507252.html`
+  },
+  {
     date: `2024/07/09`,
     name: `Vecinos de Getafe Norte critican las restricciones de aparcamiento y el cierre de accesos al barrio por el Mad Cool`,
     alt: `cadena ser`,
     url: `https://cadenaser.com/cmadrid/2024/07/09/vecinos-de-getafe-norte-critican-las-restricciones-de-aparcamiento-y-el-cierre-de-accesos-al-barrio-por-el-mad-cool-ser-madrid-sur`
-  },
-  {
-    date: `2024/07/08`,
-    name: `Madrid vigilará con lupa el Mad Cool 2024 para decidir en septiembre si el recinto para macrofestivales continúa en 2025`,
-    alt: `eldiario.es`,
-    ulr: `https://www.eldiario.es/madrid/somos/madrid-vigilara-lupa-mad-cool-2024-decidir-si-recinto-continua-2025_1_11507252.html`
   },
   {
     date: `2024/07/09`,
