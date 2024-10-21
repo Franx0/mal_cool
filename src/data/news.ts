@@ -660,12 +660,6 @@ const news = [
     url: `https://cadenaser.com/cmadrid/2024/06/14/el-ayuntamiento-de-madrid-confirma-que-el-mad-cool-se-va-a-celebrar-en-la-capital-radio-madrid`
   },
   {
-    date: `2024/06/14`,
-    name: `El Ayuntamiento de Madrid confirma que el 'Mad Cool' se va a celebrar en la capital`,
-    alt: `cadena ser`,
-    url: `https://cadenaser.com/cmadrid/2024/06/14/el-ayuntamiento-de-madrid-confirma-que-el-mad-cool-se-va-a-celebrar-en-la-capital-radio-madrid`
-  },
-  {
     date: `2024/07/08`,
     name: `La Comunidad de Madrid refuerza el transporte público por la celebración del festival Mad Cool`,
     alt: `metro`,
@@ -688,6 +682,12 @@ const news = [
     name: `Vecinos de Getafe Norte critican las restricciones de aparcamiento y el cierre de accesos al barrio por el Mad Cool`,
     alt: `cadena ser`,
     url: `https://cadenaser.com/cmadrid/2024/07/09/vecinos-de-getafe-norte-critican-las-restricciones-de-aparcamiento-y-el-cierre-de-accesos-al-barrio-por-el-mad-cool-ser-madrid-sur`
+  },
+  {
+    date: `2024/07/08`,
+    name: `Madrid vigilará con lupa el Mad Cool 2024 para decidir en septiembre si el recinto para macrofestivales continúa en 2025`,
+    alt: `eldiario.es`,
+    ulr: `https://www.eldiario.es/madrid/somos/madrid-vigilara-lupa-mad-cool-2024-decidir-si-recinto-continua-2025_1_11507252.html`
   },
   {
     date: `2024/07/09`,
