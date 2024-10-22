@@ -762,6 +762,12 @@ const news = [
     url: `https://www.elmundo.es/madrid/2024/07/18/6698f9e4fc6c835f0c8b4576.html`
   },
   {
+    date: `2024/07/19`,
+    name: `El Ayuntamiento de Getafe vuelve a detectar infracciones “muy graves” en materia de ruido en el Mad Cool`,
+    alt: `cadena ser`,
+    url: `https://cadenaser.com/cmadrid/2024/07/19/el-ayuntamiento-de-getafe-vuelve-a-detectar-infracciones-muy-graves-en-materia-de-ruido-en-el-mad-cool-ser-madrid-sur/`
+  },
+  {
     date: `2024/10/17`,
     name: `El Mad Cool se prepara para 2025 ignorando a los vecinos de Getafe`,
     alt: `Qué`,
