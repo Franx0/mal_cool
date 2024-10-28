@@ -1,6 +1,5 @@
 'use client'
 
-import { trackEvent } from '@/components/shared/customAnalytics'
 import DocumentViewer from '@/components/shared/documentViewer'
 
 export default function PressRelease({dictionary}: any) {
@@ -14,7 +13,6 @@ export default function PressRelease({dictionary}: any) {
       <div className="w-full mx-auto">
         <span>{dictionary.download}</span>
         <a className='text-blue-400'
-            onClick={() => trackEvent(dictionary.download)}
             href={dictionary.pressNoteUrl}
             hrefLang='es'
             referrerPolicy='origin'
