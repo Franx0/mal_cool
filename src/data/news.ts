@@ -785,6 +785,12 @@ const news = [
     alt: `madriddiario`,
     url: `https://www.madridiario.es/fiscalia-investiga-madcool-contaminacion-acustica`
   },
+  {
+    date: `2024/10/29`,
+    name: `Las denuncias por el ruido del festival Mad Cool 2023 desde Villaverde y Getafe llegan a la Justicia`,
+    alt: `cadena ser`,
+    url: `https://cadenaser.com/cmadrid/2024/10/29/las-denuncias-por-el-ruido-del-festival-mad-cool-2023-desde-villaverde-y-getafe-llegan-a-la-justicia-ser-madrid-sur/`
+  },
 ]
 
 export default news
