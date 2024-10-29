@@ -773,6 +773,12 @@ const news = [
     alt: `Qué`,
     url: `https://www.que.es/2024/10/17/el-mad-cool-se-prepara-para-2025-ignorando-a-los-vecinos-de-getafe`
   },
+  {
+    date: `2024/10/29`,
+    name: `Un juzgado investiga a Mad Cool por superar los límites de ruido en los conciertos de 2023`,
+    alt: `abc`,
+    url: `https://www.abc.es/espana/madrid/juzgado-investiga-mad-cool-superar-limites-ruido-20241028191512-nt.html`
+  },
 ]
 
 export default news
