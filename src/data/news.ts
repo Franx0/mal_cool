@@ -779,6 +779,12 @@ const news = [
     alt: `abc`,
     url: `https://www.abc.es/espana/madrid/juzgado-investiga-mad-cool-superar-limites-ruido-20241028191512-nt.html`
   },
+  {
+    date: `2024/10/29`,
+    name: `La Fiscalía investiga el festival Mad Cool 2023 por delito de contaminación acústica`,
+    alt: `madriddiario`,
+    url: `https://www.madridiario.es/fiscalia-investiga-madcool-contaminacion-acustica`
+  },
 ]
 
 export default news
