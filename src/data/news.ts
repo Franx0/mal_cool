@@ -791,6 +791,12 @@ const news = [
     alt: `cadena ser`,
     url: `https://cadenaser.com/cmadrid/2024/10/29/las-denuncias-por-el-ruido-del-festival-mad-cool-2023-desde-villaverde-y-getafe-llegan-a-la-justicia-ser-madrid-sur/`
   },
+  {
+    date: `2024/10/29`,
+    name: `La Fiscalía de Medio Ambiente investiga a Mad Cool por superar los límites de ruido en los conciertos de 2023`,
+    alt: `eldiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/fiscalia-medio-ambiente-investiga-mad-cool-superar-limites-ruido-conciertos-2023_1_11774250.html`
+  },
 ]
 
 export default news
