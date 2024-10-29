@@ -797,6 +797,18 @@ const news = [
     alt: `eldiario.es`,
     url: `https://www.eldiario.es/madrid/somos/fiscalia-medio-ambiente-investiga-mad-cool-superar-limites-ruido-conciertos-2023_1_11774250.html`
   },
+  {
+    date: `2024/10/29`,
+    name: `Los vecinos de Villaverde y Getafe se enfrentan al Mad Cool: denuncian el exceso de ruido del festival`,
+    alt: `el español`,
+    url: `https://www.elespanol.com/madrid/comunidad/20241029/vecinos-villaverde-getafe-enfrentan-mad-cool-denuncian-exceso-ruido-festival/897160656_0.html`
+  },
+  {
+    date: `2024/10/29`,
+    name: `Los vecinos de Getafe y Villaverde se personan en la denuncia por ruidos del Mad Cool 2023, que investiga un juzgado de Madrid`,
+    alt: `el periodico de españa`,
+    url: `https://www.epe.es/es/espana/madrid/20241029/vecinos-getafe-villaverde-personan-denuncia-110798717`
+  },
 ]
 
 export default news
