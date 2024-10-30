@@ -24,22 +24,21 @@ export function middleware(request: NextRequest) {
     .trim()
 
   const requestHeaders = new Headers(request.headers)
-  requestHeaders.set('x-nonce', nonce)
-
-  requestHeaders.set(
-    'Content-Security-Policy',
-    contentSecurityPolicyHeaderValue
-  )
+  requestHeaders.set('Content-Security-Policy', contentSecurityPolicyHeaderValue)
+  requestHeaders.set('Permission-Policy', 'self')
+  requestHeaders.set('Referrer-Policy', 'no-referrer-when-downgrade')
+  requestHeaders.set('X-Nonce', nonce)
+  requestHeaders.set('X-Frame-Options', 'DENY')
+  requestHeaders.set('X-XSS-Protection', '1; mode=block')
+  requestHeaders.set('X-Content-Type-Options', 'nosniff')
 
   const response = NextResponse.next({
     request: {
       headers: requestHeaders,
     },
   })
-  response.headers.set(
-    'Content-Security-Policy',
-    contentSecurityPolicyHeaderValue
-  )
+  response.headers.set('Content-Security-Policy', contentSecurityPolicyHeaderValue)
+
   return response
 }
 
@@ -53,7 +52,7 @@ export const config = {
      * - favicon.ico (favicon file)
      */
     {
-      source: '/((?!api|_next/static|_next/image|favicon.ico).*)',
+      source: '/((?!_next/static|_next/image|favicon.ico).*)',
       missing: [
         { type: 'header', key: 'next-router-prefetch' },
         { type: 'header', key: 'purpose', value: 'prefetch' },
