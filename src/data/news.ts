@@ -809,6 +809,24 @@ const news = [
     alt: `el periodico de españa`,
     url: `https://www.epe.es/es/espana/madrid/20241029/vecinos-getafe-villaverde-personan-denuncia-110798717`
   },
+  {
+    date: `2024/10/29`,
+    name: `El festival Mad Cool, denunciado por contaminación acústica`,
+    alt: `telecinco`,
+    url: `https://www.telecinco.es/noticias/madrid/20241029/festival-mad-cool-denunciado-contaminacion_18_013859845.html`
+  },
+  {
+    date: `2024/10/29`,
+    name: `Los vecinos se personan en la causa que investiga si el Mad Cool 2023 incurrió en un delito medioambiental`,
+    alt: `madrid24horas.es`,
+    url: `https://www.madrid24horas.com/articulo/madrid/madrid-vecinos-personan-causa-que-investiga-mad-cool-2023-incurrio-delito-medioambiental/20241029160606085865.html`
+  },
+  {
+    date: `2024/10/29`,
+    name: `Vecinos de Getafe y Villaverde plantan batalla judicial al ‘Mad Cool’`,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/municipios-madrid/noticias-getafe/vecinos-de-getafe-y-villaverde-plantan-batalla-judicial-al-mad-cool`
+  },
 ]
 
 export default news
