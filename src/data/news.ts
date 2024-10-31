@@ -827,6 +827,18 @@ const news = [
     alt: `noticias para municipios`,
     url: `https://noticiasparamunicipios.com/municipios-madrid/noticias-getafe/vecinos-de-getafe-y-villaverde-plantan-batalla-judicial-al-mad-cool`
   },
+  {
+    date: `2024/10/29`,
+    name: `Los vecinos se personan en la causa que investiga si el Mad Cool 2023 incurrió en un delito medioambiental`,
+    alt: `europapress`,
+    url: `https://www.europapress.es/madrid/noticia-vecinos-personan-causa-investiga-si-mad-cool-2023-incurrio-delito-medioambiental-20241029152505.html`
+  },
+  {
+    date: `2024/10/29`,
+    name: `Los vecinos de Villaverde y Getafe se enfrentan al Mad Cool: denuncian el exceso de ruido del festival`,
+    alt: `el español`,
+    url: `https://www.elespanol.com/madrid/comunidad/20241029/vecinos-villaverde-getafe-enfrentan-mad-cool-denuncian-exceso-ruido-festival/897160656_0.html`
+  },
 ]
 
 export default news
