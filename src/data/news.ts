@@ -839,6 +839,18 @@ const news = [
     alt: `el español`,
     url: `https://www.elespanol.com/madrid/comunidad/20241029/vecinos-villaverde-getafe-enfrentan-mad-cool-denuncian-exceso-ruido-festival/897160656_0.html`
   },
+  {
+    date: `2024/12/17`,
+    name: `MadCool volverá en 2025 al Iberdrola Music:“Su éxito mostró que el espacio está preparado”`,
+    alt: `la vanguardia`,
+    url: `https://www.lavanguardia.com/vida/20241217/10208763/madcool-volvera-2025-iberdrola-music-exito-mostro-espacio-esta-preparado-agenciaslv20241217.html`
+  },
+  {
+    date: `2024/12/18`,
+    name: `Confirmado el temor de los vecinos de Getafe y Villaverde: el MadCool repetirá en el mismo espacio`,
+    alt: `el periodico de españa`,
+    url: `https://www.epe.es/es/espana/madrid/20241218/confirmado-temor-vecinos-iberdrola-music-madcool-grandes-eventos-112685980`
+  },
 ]
 
 export default news
