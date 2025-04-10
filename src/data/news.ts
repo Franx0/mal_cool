@@ -857,6 +857,42 @@ const news = [
     alt: `rne`,
     url: `https://rtve-mediavod-lote3.rtve.es/resources/TE_R15MADR/mp3/4/1/1735477813314.mp3?idasset=16389577#t=00:15:32`
   },
+  {
+    date: `2024/10/31`,
+    name: `GETAFE | El Mad Cool llega a la Justicia`,
+    alt: `soy de madrid`,
+    url: `https://www.soydemadrid.com/noticia-getafe/el-mad-cool-llega-a-la-justicia-117860.aspx?s=09`
+  },
+  {
+    date: `2025/03/12`,
+    name: `‘Iberdrola Music’ tratará de generar oportunidades para vecinos y empresas de Getafe y Villaverde`,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/municipios-madrid/noticias-getafe/iberdrola-music-tratara-de-generar-oportunidades-para-vecinos-y-empresas-de-getafe-y-villaverde`
+  },
+  {
+    date: `2025/03/13`,
+    name: `Iberdrola Music, el recinto de Mad Cool, arranca sus obras de mejora con la oposición del Ayuntamiento de Getafe`,
+    alt: `abc`,
+    url: `https://www.abc.es/espana/madrid/iberdrola-music-recinto-mad-cool-arranca-obras-20250313194244-nt.html`
+  },
+  {
+    date: `2025/03/13`,
+    name: `GETAFE | Borja Carabante tiende la mano a Getafe para un Mad Cool seguro`,
+    alt: `soy de madrid`,
+    url: `https://www.soydemadrid.com/noticia-getafe/borja-carabante-tiende-la-mano-a-getafe-para-un-mad-cool-seguro-125121.aspx?s=09`
+  },
+  {
+    date: `2025/04/02`,
+    name: `El delegado del Gobierno asegura que “no se dan las condiciones de seguridad” para celebrar el Mad Cool`,
+    alt: `cadena ser`,
+    url: `https://cadenaser.com/cmadrid/2025/04/02/el-delegado-del-gobierno-asegura-que-no-se-dan-las-condiciones-de-seguridad-para-celebrar-el-mad-cool-ser-madrid-sur/`
+  },
+  {
+    date: `2025/04/08`,
+    name: `El recinto Iberdrola Music acogerá un nuevo festival con Maná de cabeza de cartel`,
+    alt: `abc`,
+    url: `https://www.abc.es/espana/madrid/xxx-nuevo-festival-verano-madrileno-20250408143308-nt.html`
+  },
 ]
 
 export default news
