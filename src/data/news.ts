@@ -893,6 +893,24 @@ const news = [
     alt: `abc`,
     url: `https://www.abc.es/espana/madrid/xxx-nuevo-festival-verano-madrileno-20250408143308-nt.html`
   },
+  {
+    date: `2025/04/14`,
+    name: `La empresa de Mad Cool hace obras de reforma en su recinto para acoger más eventos durante el año`,
+    alt: `abc`,
+    url: `https://www.abc.es/espana/madrid/empresa-mad-cool-obras-reforma-recinto-acoger-20250414130537-nt.html`
+  },
+  {
+    date: `2025/04/14`,
+    name: `Madrid busca en el recinto de Mad Cool un nuevo “eventódromo” pese a las quejas de Getafe y Delegación del Gobierno`,
+    alt: `eldiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/madrid-busca-recinto-mad-cool-nuevo-eventodromo-pese-quejas-getafe-delegacion-gobierno_1_12220345.html`
+  },
+  {
+    date: `2025/04/14`,
+    name: `Delegación quiere un nuevo Plan de Movilidad, reducir el número de policías y minimizar el ruido para el Mad Cool 2025`,
+    alt: `la vanguardia`,
+    url: `https://www.lavanguardia.com/local/madrid/20250414/10585538/delegacion-quiere-nuevo-plan-movilidad-reducir-numero-policias-minimizar-ruido-mad-cool-2025-agenciaslv20250414.html`
+  },
 ]
 
 export default news
