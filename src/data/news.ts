@@ -923,6 +923,12 @@ const news = [
     alt: `noticias para municipios`,
     url: `https://noticiasparamunicipios.com/municipios-madrid/noticias-getafe/madrid-comunica-que-el-recinto-del-mad-cool-tendra-programa-estable-y-getafe-reclama-medidas/`
   },
+  {
+    date: `2025/04/15`,
+    name: `Mentir sale gratis. Iberdrola Music y Madcool`,
+    alt: `getafenorte.es`,
+    url: `https://getafenorte.es/episodes/7flzNZsHLR3CA0UoYWVQNK`
+  },
 ]
 
 export default news
