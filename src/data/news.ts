@@ -911,6 +911,12 @@ const news = [
     alt: `la vanguardia`,
     url: `https://www.lavanguardia.com/local/madrid/20250414/10585538/delegacion-quiere-nuevo-plan-movilidad-reducir-numero-policias-minimizar-ruido-mad-cool-2025-agenciaslv20250414.html`
   },
+  {
+    date: `2025/04/14`,
+    name: `RNE Crónica Madrid - Madcool (minuto 04:35)`,
+    alt: `rne`,
+    url: `https://rtve-mediavod-lote3.rtve.es/resources/TE_SINFMA/mp3/9/0/1744632789109.mp3?idasset=16540473#t=00:04:35`
+  },
 ]
 
 export default news
