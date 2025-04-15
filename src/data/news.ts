@@ -917,6 +917,12 @@ const news = [
     alt: `rne`,
     url: `https://rtve-mediavod-lote3.rtve.es/resources/TE_SINFMA/mp3/9/0/1744632789109.mp3?idasset=16540473#t=00:04:35`
   },
+  {
+    date: `2025/04/14`,
+    name: `Madrid comunica que el recinto del ‘Mad Cool’ tendrá programa estable y Getafe reclama medidas`,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/municipios-madrid/noticias-getafe/madrid-comunica-que-el-recinto-del-mad-cool-tendra-programa-estable-y-getafe-reclama-medidas/`
+  },
 ]
 
 export default news
