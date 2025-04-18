@@ -929,6 +929,12 @@ const news = [
     alt: `getafenorte.es`,
     url: `https://getafenorte.es/episodes/7flzNZsHLR3CA0UoYWVQNK`
   },
+  {
+    date: `2023/04/16`,
+    name: `Los vecinos de Getafe Norte creen que la única solución a los problemas del Iberdrola Music es su traslado`,
+    alt: `cadena ser`,
+    url: `https://cadenaser.com/cmadrid/2025/04/16/los-vecinos-de-getafe-norte-creen-que-la-unica-solucion-a-los-problemas-del-iberdrola-music-es-su-traslado-ser-madrid-sur/`
+  },
 ]
 
 export default news
