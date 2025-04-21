@@ -935,6 +935,12 @@ const news = [
     alt: `cadena ser`,
     url: `https://cadenaser.com/cmadrid/2025/04/16/los-vecinos-de-getafe-norte-creen-que-la-unica-solucion-a-los-problemas-del-iberdrola-music-es-su-traslado-ser-madrid-sur/`
   },
+  {
+    date: `2023/04/20`,
+    name: `El Mad Cool enfrenta a los vecinos y a los ayuntamientos con Almeida y Ayuso: “Llegan tarde”`,
+    alt: `el plural`,
+    url: `https://www.elplural.com/autonomias/mad-cool-enfrenta-vecinos-ayuntamientos-almeida-ayuso-llegan-tarde_350444102`
+  },
 ]
 
 export default news
