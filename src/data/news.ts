@@ -930,13 +930,19 @@ const news = [
     url: `https://getafenorte.es/episodes/7flzNZsHLR3CA0UoYWVQNK`
   },
   {
-    date: `2023/04/16`,
+    date: `2025/04/16`,
     name: `Los vecinos de Getafe Norte creen que la única solución a los problemas del Iberdrola Music es su traslado`,
     alt: `cadena ser`,
     url: `https://cadenaser.com/cmadrid/2025/04/16/los-vecinos-de-getafe-norte-creen-que-la-unica-solucion-a-los-problemas-del-iberdrola-music-es-su-traslado-ser-madrid-sur/`
   },
   {
-    date: `2023/04/20`,
+    date: `2025/04/16`,
+    name: `Hora 14 Madrid Sur (minuto 08:45)`,
+    alt: `cadenar ser`,
+    url: `cadenaser.com/audio/cadenaser_parla_hora14madridsur_20250416_141851_143000`
+  },
+  {
+    date: `2025/04/20`,
     name: `El Mad Cool enfrenta a los vecinos y a los ayuntamientos con Almeida y Ayuso: “Llegan tarde”`,
     alt: `el plural`,
     url: `https://www.elplural.com/autonomias/mad-cool-enfrenta-vecinos-ayuntamientos-almeida-ayuso-llegan-tarde_350444102`
