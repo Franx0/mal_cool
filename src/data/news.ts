@@ -840,6 +840,12 @@ const news = [
     url: `https://www.elespanol.com/madrid/comunidad/20241029/vecinos-villaverde-getafe-enfrentan-mad-cool-denuncian-exceso-ruido-festival/897160656_0.html`
   },
   {
+    date: `2024/10/31`,
+    name: `GETAFE | El Mad Cool llega a la Justicia`,
+    alt: `soy de madrid`,
+    url: `https://www.soydemadrid.com/noticia-getafe/el-mad-cool-llega-a-la-justicia-117860.aspx`
+  },
+  {
     date: `2024/12/17`,
     name: `MadCool volverá en 2025 al Iberdrola Music:“Su éxito mostró que el espacio está preparado”`,
     alt: `la vanguardia`,
@@ -856,12 +862,6 @@ const news = [
     name: `RNE Crónica Madrid - Madcool (minuto 15:32)`,
     alt: `rne`,
     url: `https://rtve-mediavod-lote3.rtve.es/resources/TE_R15MADR/mp3/4/1/1735477813314.mp3?idasset=16389577#t=00:15:32`
-  },
-  {
-    date: `2024/10/31`,
-    name: `GETAFE | El Mad Cool llega a la Justicia`,
-    alt: `soy de madrid`,
-    url: `https://www.soydemadrid.com/noticia-getafe/el-mad-cool-llega-a-la-justicia-117860.aspx?s=09`
   },
   {
     date: `2025/03/12`,
