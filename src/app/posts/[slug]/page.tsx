@@ -5,7 +5,13 @@ import PostsLayout from '@/app/layouts/postsLayout'
 import metadataBuilder from '@/utilities/metadata'
 import type { Post } from '@/pages/api/posts/index'
 
-export async function generateMetadata({ params: { slug } }: Props): Promise<any> {
+export async function generateMetadata(props: Props): Promise<any> {
+  const params = await props.params;
+
+  const {
+    slug
+  } = params;
+
   const post: PostData = await getPost(slug);
 
   return metadataBuilder({
@@ -17,9 +23,9 @@ export async function generateMetadata({ params: { slug } }: Props): Promise<any
 }
 
 type Props = {
-  params: {
+  params: Promise<{
     slug: string
-  }
+  }>
 }
 
 type PostData = {
@@ -43,11 +49,17 @@ const getPost: Function = cache(async (slug: string) => {
   return response.json()
 })
 
-export default async function Page({
-  params: { slug }
-}: {
-  params: { slug: string }
-}) {
+export default async function Page(
+  props: {
+    params: Promise<{ slug: string }>
+  }
+) {
+  const params = await props.params;
+
+  const {
+    slug
+  } = params;
+
   const post: Post = await getPost(slug);
   const markup = { __html: DOMPurify.sanitize(
     post.html,

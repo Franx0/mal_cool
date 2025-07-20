@@ -13,8 +13,8 @@ import News from '@/components/news'
 import Posts from '@/components/posts'
 import dictionarySearcher from '@/utilities/dictionary'
 
-export default function Home() {
-  const nonce: string = headers().get("x-nonce") || "";
+export default async function Home() {
+  const nonce: string = (await headers()).get("x-nonce") || "";
 
   return (
     <Layout nonce={nonce}>
