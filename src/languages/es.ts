@@ -36,6 +36,10 @@ const dictionary = {
   meetings: {
     description: `Aquí puedes consultar todas las decisiones acciones y documentos elaborados por la propia plataforma Stop Espacio Mad Cool como por las distintas asociaciones que la conforman:`,
     all: {
+      "2024/07/08": {
+        description: `Consecuencias de los conciertos en el recinto Iberdrola Music`,
+        docUrl: `https://drive.google.com/file/d/11P-C0winTPygCPhQwTxamPG5uF_1JJ1E/view`
+      },
       "2024/10/28": {
         description: `Nota de prensa 2024 - Personación en causa penal`,
         docUrl: `https://drive.google.com/file/d/1BN-bUF0wIUIKN62xdJhrbRnQeLfIV2mo/view`,
