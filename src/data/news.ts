@@ -947,6 +947,102 @@ const news = [
     alt: `el plural`,
     url: `https://www.elplural.com/autonomias/mad-cool-enfrenta-vecinos-ayuntamientos-almeida-ayuso-llegan-tarde_350444102`
   },
+  {
+    date: `2025/05/04`,
+    name: `La Comunidad de Madrid destinará 1.089.000 euros al patrocinio del festival Mad Cool`,
+    alt: `la vanguardia`,
+    url: `https://www.lavanguardia.com/local/madrid/20250504/10643966/comunidad-madrid-destinara-1-089-000-euros-patrocinio-festival-mad-cool.html`
+  },
+  {
+    date: `2025/06/19`,
+    name: `Ayuso encarga una reforma legal para proteger los grandes conciertos y eventos en Madrid: del Bernabéu y el Metropolitano a la celebración de la Fórmula 1`,
+    alt: `el mundo`,
+    url: `https://www.elmundo.es/madrid/2025/06/19/6852e118e85ecedd228b4591.html`
+  },
+  {
+    date: `2025/07/04`,
+    name: `Getafe teme que los barrios próximos a ‘Mad Cool’ se desborden `,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/municipios-madrid/noticias-getafe/getafe-teme-que-los-barrios-proximos-a-mad-cool-se-desborden/`
+  },
+  {
+    date: `2025/07/08`,
+    name: `Plan de movilidad de Ayuntamiento de Madrid para evento Madcool 2025`,
+    alt: `ayuntamiento de madrid`,
+    url: `https://www.madrid.es/portales/munimadrid/es/Inicio/Movilidad-y-transportes/Incidencias-de-Trafico/Principales-incidencias-en-la-ciudad/Plan-de-movilidad-con-motivo-del-Mad-Cool-Festival-Madrid-2025-/?vgnextfmt=default&vgnextoid=3721479355d87910VgnVCM2000001f4a900aRCRD&vgnextchannel=cbe0aa2dedcb1610VgnVCM2000001f4a900aRCRD`
+  },
+  {
+    date: `2025/07/08`,
+    name: `El bus para evitar el cruce peatonal de la M-45 por el Mad Cool se cancela por la negativa de Getafe`,
+    alt: `20minutos`,
+    url: `https://www.20minutos.es/noticia/5729417/0/bus-lanzadera-para-evitar-cruce-peatonal-m-45-por-mad-cool-se-cancela-por-negativa-getafe/`
+  },
+  {
+    date: `2025/07/09`,
+    name: `Otro Mad Cool entre el ruido político: ahora por una rotonda bajo la M-45`,
+    alt: `el mundo`,
+    url: `https://www.elmundo.es/madrid/2025/07/09/686d5da4e9cf4a81638b456e.html`
+  },
+  {
+    date: `2025/07/14`,
+    name: `Las situaciones de riesgo que dejó el ‘Mad Cool’, el peligroso balance del mayor festival de Madrid`,
+    alt: `noticias para municipios`,
+    url: `https://noticiasparamunicipios.com/municipios-madrid/noticias-getafe/las-situaciones-de-riesgo-que-dejo-el-mad-cool-el-peligroso-balance-del-mayor-festival-de-madrid/`
+  },
+  {
+    date: `2025/07/15`,
+    name: `El delegado del Gobierno defiende el dispositivo para el Mad Cool pero reconoce que el recinto "no es el adecuado"`,
+    alt: `europapress`,
+    url: `https://www.europapress.es/madrid/noticia-delegado-gobierno-defiende-dispositivo-mad-cool-reconoce-recinto-no-adecuado-20250715133357.html`
+  },
+  {
+    date: `2025/07/18`,
+    name: `Mad Cool llegó a niveles de ruido "muy graves" durante 14 mediciones realizadas por el Ayuntamiento de Getafe`,
+    alt: `el mundo`,
+    url: `https://www.elmundo.es/madrid/2024/07/18/6698f9e4fc6c835f0c8b4576.html`
+  },
+  {
+    date: `2025/07/18`,
+    name: `Plan de movilidad de Ayuntamiento de Madrid para evento Reggaeton Beach Festival Madrid 2025`,
+    alt: `ayuntamiento de madrid`,
+    url: `https://www.madrid.es/portales/munimadrid/es/Inicio/Movilidad-y-transportes/Incidencias-de-Trafico/Principales-incidencias-en-la-ciudad/Plan-de-movilidad-con-motivo-del-Reggaeton-Beach-Festival-Madrid-2025-/?vgnextfmt=default&vgnextoid=a5e696524e718910VgnVCM100000891ecb1aRCRD&vgnextchannel=cbe0aa2dedcb1610VgnVCM2000001f4a900aRCRD`
+  },
+  {
+    date: `2025/07/21`,
+    name: `Reggaeton Beach Festival: éxito en Barcelona y pesadilla en Getafe`,
+    alt: `el debate`,
+    url: `https://www.eldebate.com/cultura/musica/20250721/reggaeton-beach-festivalexito-barcelona-pesadilla-getafe_319025.html`
+  },
+  {
+    date: `2025/07/21`,
+    name: `Iberdrola Music impone que Getafe sea la puerta de entrada a sus festivales`,
+    alt: `getafecentral`,
+    url: `https://www.getafecentral.com/2025/07/21/iberdrola-music-impone-que-getafe-sea-la-puerta-de-entrada-a-sus-festivales/`
+  },
+  {
+    date: `2025/09/03`,
+    name: `El festival Mad Cool, acusado de un delito ambiental por los ruidos de 2023`,
+    alt: `dodmagazine`,
+    url: `https://www.dodmagazine.es/mad-cool-delito-mediaombiental-ruidos/`
+  },
+  {
+    date: `2025/09/03`,
+    name: `Comunicado del Ayuntamiento de Getafe ante las últimas noticias aparecidas en prensa en relación a procesos judiciales abiertos sobre Mad Cool y sus promotores `,
+    alt: `getafe.es`,
+    url: `https://getafe.es/comunicado-del-ayuntamiento-de-getafe-ante-las-ultimas-noticias-aparecidas-en-prensa-en-relacion-a-procesos-judiciales-abiertos-sobre-mad-cool-y-sus-promotores/`
+  },
+  {
+    date: `2025/09/03`,
+    name: `La Fiscalía pide dos años de cárcel para el organizador del festival Mad Cool por exceso de ruido`,
+    alt: `rtve`,
+    url: `https://www.rtve.es/noticias/20250903/fiscalia-dos-anos-carcel-organizador-mad-cool-exceso-ruido/16716256.shtml`
+  },
+  {
+    date: `2025/09/03`,
+    name: `La Fiscalía pide dos años de cárcel para el director del festival Mad Cool por superar los niveles de ruido en 2023 en el recinto de Villaverde`,
+    alt: `radio 5`,
+    url: `https://www.rtve.es/noticias/20250903/fiscalia-dos-anos-carcel-organizador-mad-cool-exceso-ruido/16716256.shtml`
+  }
 ]
 
 export default news
