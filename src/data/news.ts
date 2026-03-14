@@ -1042,6 +1042,18 @@ const news = [
     name: `La Fiscalía pide dos años de cárcel para el director del festival Mad Cool por superar los niveles de ruido en 2023 en el recinto de Villaverde`,
     alt: `radio 5`,
     url: `https://www.rtve.es/noticias/20250903/fiscalia-dos-anos-carcel-organizador-mad-cool-exceso-ruido/16716256.shtml`
+  },
+  {
+    date: `2026/03/13`,
+    name: `Madrilucía cancela su primera edición y consuma su fracaso: la Feria de Abril en Madrid no llegará al menos hasta 2027`,
+    alt: `eldiario.es`,
+    url: `https://www.eldiario.es/madrid/somos/madrilucia-cancela-primera-edicion-consuma-fracaso-feria-abril-madrid-no-llegara-2027_1_13065455.html`
+  },
+  {
+    date: `2026/03/13`,
+    name: `Madrilucía cancela su edición de 2026 y se aplaza a 2027`,
+    alt: `telemadrid`,
+    url: `https://www.telemadrid.es/noticias/madrid/Madrilucia-cancela-su-edicion-de-2026-y-se-aplaza-a-2027-0-2870112976--20260313121826.html`
   }
 ]
 

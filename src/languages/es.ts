@@ -36,6 +36,14 @@ const dictionary = {
   meetings: {
     description: `Aquí puedes consultar todas las decisiones acciones y documentos elaborados por la propia plataforma Stop Espacio Mad Cool como por las distintas asociaciones que la conforman:`,
     all: {
+      "2026/03/13": {
+        description: "Getafe agradece los apoyos vecinales e institucionales tras la cancelación de Madrilucía",
+        docUrl: `https://drive.google.com/file/d/13mJ1oejdrObbmHJvTOjRmZn9dj2k1MQc/view`
+      },
+      "2026/03/07": {
+        description: "Toma de decisiones y próximas actuaciones de la plataforma para el año 2026",
+        docUrl: `https://drive.google.com/file/d/1QdUnU1LZPdMi5fVlcWimm2Uz3Ca24qbU/view`
+      },
       "2024/07/08": {
         description: `Consecuencias de los conciertos en el recinto Iberdrola Music`,
         docUrl: `https://drive.google.com/file/d/11P-C0winTPygCPhQwTxamPG5uF_1JJ1E/view`
