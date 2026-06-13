@@ -1,14 +1,14 @@
 const dictionary = {
   meta: {
-    title: `Stop Espacio Mad Cool`,
-    description: `Los vecinos de Villaverde y Getafe crean la plataforma vecinal Stop Espacio Mad Cool.`,
-    author: `Stop Espacio Mad Cool`,
-    site: `https://www.stopmadcool.com`,
-    keywords: `stop madcool marconi villaverde getafe norte`,
-    logoUrl: 'https://drive.google.com/thumbnail?id=1Re14bh6TJ9uazDDkrDZm-A-keJJ54Ng4&sz=w2000'
+    title: `Stop Macro Festivales Villaverde-Getafe`,
+    description: `Los vecinos de Villaverde y Getafe crean la plataforma vecinal Stop Macro Festivales Villaverde-Getafe.`,
+    author: `Stop Macro Festivales Villaverde-Getafe`,
+    site: `https://stopfestivalesvillaverde.es`,
+    keywords: `stop macrofestivales madcool marconi villaverde getafe norte`,
+    logoUrl: 'https://drive.google.com/thumbnail?id=1H8ald6cBYu907d454mx-8L03aP4xpyPM&sz=w2000'
   },
   header: {
-    title: `Los vecinos de Villaverde y Getafe crean la plataforma vecinal Stop Espacio Mad Cool en rechazo al nuevo recinto llamado Iberdrola Music y destinado a albergar macrofestivales en una localización muy cercana a los barrios y viviendas de Colonia Marconi y Getafe Norte.`,
+    title: `Los vecinos de Villaverde y Getafe crean la plataforma vecinal Stop Macro Festivales Villaverde-Getafe en rechazo al nuevo recinto llamado Iberdrola Music y destinado a albergar macrofestivales en una localización muy cercana a los barrios y viviendas de Colonia Marconi y Getafe Norte.`,
   },
   announcements: [
     {
@@ -26,15 +26,15 @@ const dictionary = {
     },
   ],
   contact: {
-    text: `<span>Si tienes más preguntas o quieres conocer que nuevas actuaciones estamos llevando a cabo puedes seguirnos en nuestras redes sociales o también puedes escribirnos a nuestra dirección de correo electrónico: <a href={'mailto:stopmadcoolvillaverde@gmail.com?subject=A la plataforma Stop Mad Cool' class="text-sm lg:text-lg text-blue-400">stopmadcoolvillaverde@gmail.com</a></span>`,
+    text: `<span>Si tienes más preguntas o quieres conocer que nuevas actuaciones estamos llevando a cabo puedes seguirnos en nuestras redes sociales o también puedes escribirnos a nuestra dirección de correo electrónico: <a href={'mailto:stopfestivalesvillaverde@gmail.com?subject=A la plataforma Stop Macro Festivales Villaverde-Getafe' class="text-sm lg:text-lg text-blue-400">stopfestivalesvillaverde@gmail.com</a></span>`,
     follow: `Siguenos en: `,
     telegram: `https://t.me/+5pr5MD2fZbVlZWE0`,
-    x: `https://twitter.com/StopMadcool_23`,
+    x: `https://twitter.com/StopFestivalesV`,
     facebook: `https://www.facebook.com/groups/487527109806848/`,
     tiktok: `https://www.tiktok.com/@plataforma.stopmadcool`,
   },
   meetings: {
-    description: `Aquí puedes consultar todas las decisiones acciones y documentos elaborados por la propia plataforma Stop Espacio Mad Cool como por las distintas asociaciones que la conforman:`,
+    description: `Aquí puedes consultar todas las decisiones acciones y documentos elaborados por la propia plataforma Stop Macro Festivales Villaverde-Getafe como por las distintas asociaciones que la conforman:`,
     all: {
       "2026/03/13": {
         description: "Getafe agradece los apoyos vecinales e institucionales tras la cancelación de Madrilucía",
@@ -78,7 +78,7 @@ const dictionary = {
     download: `Para descargar la nota de prensa puedes seguir el siguiente `
   },
   location: {
-    text: `El siguiente plano de situación muestra la localización exacta del recinto Espacio Mad Cool (marcada en color morado) y su cercanía a los barrios de Marconi en Villaverde y Getafe Norte en Getafe. Podeis leer más <a class='text-blue-400' href='https://drive.google.com/file/d/1dTNZxDN75kyjlsY8CAFzPV0vT9juJACQ/view' target='_blank'>aquí</a> sobre como este nuevo recinto va a afectar a los barrios limítrofes y sus vecinos.`,
+    text: `El siguiente plano de situación muestra la localización exacta del recinto Iberdrola Music (marcada en color morado) y su cercanía a los barrios de Marconi en Villaverde y Getafe Norte en Getafe. Podeis leer más <a class='text-blue-400' href='https://drive.google.com/file/d/1dTNZxDN75kyjlsY8CAFzPV0vT9juJACQ/view' target='_blank'>aquí</a> sobre como este nuevo recinto va a afectar a los barrios limítrofes y sus vecinos.`,
   },
   news: {
     title: `Noticias relacionadas:`,

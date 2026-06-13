@@ -7,7 +7,7 @@ export async function generateMetadata(): Promise<any> {
     title: title,
     description: description,
     image: logoUrl,
-    imageAlt: 'Stop Espacio Mad Cool'
+    imageAlt: 'Stop Macro Festivales'
   });
 }
 
