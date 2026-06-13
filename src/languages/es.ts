@@ -31,7 +31,7 @@ const dictionary = {
     telegram: `https://t.me/+5pr5MD2fZbVlZWE0`,
     x: `https://twitter.com/StopFestivalesV`,
     facebook: `https://www.facebook.com/groups/487527109806848/`,
-    tiktok: `https://www.tiktok.com/@plataforma.stopmadcool`,
+    tiktok: `https://www.tiktok.com/@stopfestivalesvillaverde`,
   },
   meetings: {
     description: `Aquí puedes consultar todas las decisiones acciones y documentos elaborados por la propia plataforma Stop Macro Festivales Villaverde-Getafe como por las distintas asociaciones que la conforman:`,
