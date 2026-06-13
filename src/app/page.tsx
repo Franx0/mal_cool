@@ -19,7 +19,7 @@ export default async function Home() {
   return (
     <Layout nonce={nonce}>
       {/* Video viewer */}
-      <VideoRelease dictionary={dictionarySearcher("videos")} />
+      {/* <VideoRelease dictionary={dictionarySearcher("videos")} /> */}
       {/* Announcements */}
       <Announcements announcements={dictionarySearcher("announcements")} />
       {/* Posts */}
